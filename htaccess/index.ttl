@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sch: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@Base <http://personal-website-sem.herokuapp.com/> .
+
+
+<index.html> a sch:Organization.
+
+<kevin/cv.html> a sch:member.
+<xavier/cv.html> a sch:member.
+<alexis/cv.html> a sch:member.
+
+<kevin/cv.html> sch:memberOf <index.html>.
+<xavier/cv.html> sch:memberOf <index.html>.
+<alexis/cv.html> sch:memberOf <index.html>.
+
+<http://www.maxime-lefrancois.info/> a foaf:Person,
+                                     sch:member.
+
+<http://www.maxime-lefrancois.info/> sch:employee <index.html>;
+    							     foaf:familyName "LEFRANCOIS"^^xsd:string.
+
+<kevin/cv.html> foaf:familyName "ABRIAL"^^xsd:string.
