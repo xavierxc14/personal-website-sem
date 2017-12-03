@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -50,13 +50,13 @@
 	</div>
 
 	<!-- Home Section -->
-	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2" vocab="http://schema.org/" resource="#subOrganization" typeof="subOrganization">
 		<div class="intro">
-			<div class="intro-sub">Project Master 2 Donnees Systemes Connectees: Semantic Web</div>
-			<h1>Kevin <span>ABRIAL</span> &amp; Xavier <span>NAUNAY</span> &amp; Alexis <span>BARTHELEMY</span> </h1>
-			<p>We are student at the University of Saint-Etienne.<br/>This website is for the course of Semantic Web.<br/>The teacher is Maxime LEFRANCOIS <strong><a href="http://www.maxime-lefrancois.info/" target="_blank" style="text-decoration: underline;">(Website of the teacher)</a></strong><br/>
-				<strong><a href="https://www.univ-st-etienne.fr/fr/index.html" target="_blank" style="text-decoration: underline;">(Website of UJM Saint-Etienne)</a></strong>
-				<br/><strong><a href="http://www.mines-stetienne.fr/" target="_blank" style="text-decoration: underline;">(Website of Ecole des mines de Saint-Etienne)</a></strong>
+          <div class="intro-sub"><p vocab="http://schema.org/" resource="#creativeworks" typeof="CreativeWork"> <span property="comment">Project Master 2 Donnees Systemes Connectees: </span><span property="about">Semantic Web</span></p></div>
+			<h1 property="legalName">Kevin <span>ABRIAL</span> &amp; Xavier <span>NAUNAY</span> &amp; Alexis <span>BARTHELEMY</span> </h1>
+          <p>We are student at the University of Saint-Etienne.<br/>This website is for the course of Semantic Web.<br/>The teacher is Maxime LEFRANCOIS<strong vocab="http://schema.org/" resources="#maximeLefrancois" typeof="Person"><a property="url" href="http://www.maxime-lefrancois.info/" target="_blank" style="text-decoration: underline;">(Website of the teacher Maxime LEFRANCOIS)</a></strong><br/>
+              <strong vocab="http://schema.org/" resource="#organizationUJM" typeof="Organization"><a resource="#organizationUJM"  property="url"  href="https://www.univ-st-etienne.fr/fr/index.html" target="_blank" style="text-decoration: underline;">(Website of <span property="legalName">UJM Saint-Etienne </span>)</a></strong>
+              <br/><strong vocab="http://schema.org/" resource="#organizationEcolesDesMines" typeof="Organization"><a resource="#organizationEcolesDesMines" property="url" href="http://www.mines-stetienne.fr/" target="_blank" style="text-decoration: underline;">(Website of <span property="legalName">Ecole des mines de Saint-Etienne</span>)</a></strong>
 				<br/>Year: 2017/2018.</p>
 
       <div class="social-icons">
@@ -83,7 +83,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              Kevin ABRIAL : <a href="mailto:kevin.abrial@etu.univ-st-etienne.fr" target="_blank" style="text-decoration: underline;">Kevin ABRIAL</a>
+              <span vocab="http://schema.org/" resources="#kevinABRIAL" typeof="Person"><span property="name">Kevin ABRIAL</span> : <a property="email" href="mailto:kevin.abrial@etu.univ-st-etienne.fr" target="_blank" style="text-decoration: underline;">Kevin ABRIAL</a><a style ="visibility: hidden;" property="url" href="kevin/cv.html"><i class="fa fa-male">KA</i></a></span>
 							<br/>Xavier NAUNAY : <a href="mailto:xavier.mauricio.naunay@etu.univ-st-etienne.fr" target="_blank" style="text-decoration: underline;">Xavier NAUNAY</a>
 							<br/>Alexis BARTHELEMY : <a href="mailto:alexis.barthelemy@etu.univ-st-etienne.fr" target="_blank" style="text-decoration: underline;">Alexis BARTHELEMY</a>
             </div><!-- /.contact-form -->
@@ -93,10 +93,16 @@
             <div class="row center-xs">
               <div class="col-sm-6">
                 <i class="fa fa-map-marker"></i>
-                <address>
+                <address vocab="http://schema.org/" resource="#organizationEcolesDesMines" typeof="Organization">
                   <strong>Address/Street</strong>
-                  158 Cours Fauriel<br>
-                  Saint-Etienne France<br>
+                  <p property="adress">158 Cours Fauriel<br>
+                    Saint-Etienne France</p><br>
+                </address>
+								<i class="fa fa-map-marker"></i>
+                <address vocab="http://schema.org/" resource="#organizationUJM" typeof="Organization">
+                  <strong>Address/Street</strong>
+                  <p property="adress">10 Rue Tréfilerie<br>
+                    Saint-Etienne France</p><br>
                 </address>
               </div>
 
