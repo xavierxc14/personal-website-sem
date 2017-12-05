@@ -1,0 +1,16 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+
+<https://rdfa.info/play/>
+   og:url "http://personal-website-sem.herokuapp.com/kevin/languages.html"@en;
+   og:type "website"@en;
+   og:title "Kevin ABRIAL"@en;
+   og:description "IAMX, One Page Responsive HTML Resume Template"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
+   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q2053> .
+<https://rdfa.info/play/Q2053>
+   <https://www.wikidata.org/entity/P856> <http://www.w3.org/TR/html5/>;
+   <https://www.wikidata.org/entity/P179> "HTML5"@en;
+   <https://www.wikidata.org/entity/P1181> "100%"@en .
