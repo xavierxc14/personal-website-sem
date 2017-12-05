@@ -1,8 +1,11 @@
 # Rapport personal-website-sem Semantic Web 
 
 ## Quelques informations
-Le git est sur l'URL suivante : https://github.com/xavierxc14/personal-website-sem
-Le site est sur l'URL suivante : http://personal-website-sem.herokuapp.com/
+
+
+- Le git est sur l'URL suivante : https://github.com/xavierxc14/personal-website-sem
+
+- Le site est sur l'URL suivante : http://personal-website-sem.herokuapp.com/
 
 
 ## Sujet du projet : Piste:​ ​Amélioration​ ​ de​ ​ site​ ​ Web
