@@ -1,0 +1,44 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://personal-website-sem.herokuapp.com/index.html>
+   og:url "http://personal-website-sem.herokuapp.com/index.html"@en;
+   og:type "website"@en;
+   og:title "Project Semantic Web"@en;
+   og:description "IAMX, One Page Responsive HTML Resume Template"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/counter-bg.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   schema:knows <http://personal-website-sem.herokuapp.com/index.html#kevinABRIAL> .
+<http://personal-website-sem.herokuapp.com/index.html#subOrganization>
+   rdf:type schema:subOrganization;
+   schema:about <http://personal-website-sem.herokuapp.com/index.html#creativeworks>;
+   schema:legalName "Kevin ABRIAL & Xavier NAUNAY & Alexis BARTHELEMY "@en;
+   schema:knows <http://personal-website-sem.herokuapp.com/index.html#maximeLefrancois> .
+<http://personal-website-sem.herokuapp.com/index.html#creativeworks>
+   rdf:type schema:CreativeWork;
+   schema:comment "Project Master 2 Donnees Systemes Connectees: "@en;
+   schema:about "Semantic Web"@en .
+<http://personal-website-sem.herokuapp.com/index.html#maximeLefrancois>
+   rdf:type schema:Person;
+   schema:url <http://www.maxime-lefrancois.info/>;
+   schema:name " Maxime LEFRANCOIS"@en .
+<http://personal-website-sem.herokuapp.com/index.html#organizationUJM>
+   rdf:type schema:Organization;
+   schema:url <http://personal-website-sem.herokuapp.com/index.html#organizationUJM>;
+   schema:legalName "UJM Saint-Etienne "@en;
+   schema:adress """10 Rue Trefilerie
+                    Saint-Etienne France"""@en .
+<http://personal-website-sem.herokuapp.com/index.html#organizationEcolesDesMines>
+   rdf:type schema:Organization;
+   schema:url <http://personal-website-sem.herokuapp.com/index.html#organizationEcolesDesMines>;
+   schema:legalName "Ecole des mines de Saint-Etienne"@en;
+   schema:adress """158 Cours Fauriel
+                    Saint-Etienne France"""@en .
+<http://personal-website-sem.herokuapp.com/index.html#kevinABRIAL>
+   rdf:type schema:Person;
+   schema:name "Kevin ABRIAL"@en;
+   schema:email <mailto:kevin.abrial@etu.univ-st-etienne.fr>;
+   schema:url <http://personal-website-sem.herokuapp.com/index.htmlkevin/cv.html> .

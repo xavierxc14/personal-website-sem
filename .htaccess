@@ -1,3 +1,8 @@
 Options +FollowSymlinks
 RewriteEngine On
+
+RewriteCond %{HTTP_ACCEPT} ^.*text/turtle.*
+RewriteRule ^(.*).html$ /$1.ttl [R=303,L]
+RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.*
+RewriteRule ^(.*).html$ /$1.rdf [R=303,L]
 RewriteRule ^alexis/cv.html$ http://www.google.fr [R=301,L]
