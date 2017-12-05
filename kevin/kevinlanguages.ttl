@@ -3,7 +3,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://rdfa.info/play/>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/>
    og:url "http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html"@en;
    og:type "website"@en;
    og:title "Kevin ABRIAL"@en;
@@ -13,55 +13,55 @@
    rdfa:usesVocabulary schema:;
    rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
    rdfa:usesVocabulary <http://dbpedia.org/ontology/>;
-   schema:knows <https://rdfa.info/play/#kevinABRIAL>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q2053>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q46441>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q251>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q59>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q2005>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q42478>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q15777>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q484275>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q170658>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q2920921>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/autonomy>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q626225>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q6917873> .
-<https://rdfa.info/play/#creativeworks>
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#kevinABRIAL>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2053>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q46441>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q251>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q59>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2005>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q42478>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q15777>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q484275>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q170658>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2920921>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/autonomy>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q626225>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q6917873> .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#creativeworks>
    rdf:type schema:CreativeWork;
    schema:url <https://rdfa.info/index.html> .
-<https://rdfa.info/play/#kevinABRIAL>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#kevinABRIAL>
    rdf:type schema:Person;
-   schema:url <https://rdfa.info/play/kevincv.html>;
-   schema:url <https://rdfa.info/play/kevinlanguages.html>;
-   schema:url <https://rdfa.info/play/kevintechnologies.html>;
-   schema:url <https://rdfa.info/play/kevinexperience.html>;
-   schema:url <https://rdfa.info/play/kevintrips.html> .
-<https://rdfa.info/play/Q2053>
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevintrips.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2053>
    <https://www.wikidata.org/entity/P856> <http://www.w3.org/TR/html5/>;
    <https://www.wikidata.org/entity/P179> "HTML5"@en;
    <https://www.wikidata.org/entity/P1181> "100%"@en .
-<https://rdfa.info/play/Q46441>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q46441>
    <https://www.wikidata.org/entity/P856> <https://www.w3.org/Style/CSS/>;
    <https://www.wikidata.org/entity/P179> "CSS"@en;
    <https://www.wikidata.org/entity/P1181> "100%"@en .
-<https://rdfa.info/play/Q251>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q251>
    <https://www.wikidata.org/entity/P856> <https://www.oracle.com/java/>;
    <https://www.wikidata.org/entity/P179> "Java"@en;
    <https://www.wikidata.org/entity/P1181> "80%"@en .
-<https://rdfa.info/play/Q59>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q59>
    <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
    <https://www.wikidata.org/entity/P179> "PHP"@en;
    <https://www.wikidata.org/entity/P1181> "80%"@en .
-<https://rdfa.info/play/Q2005>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2005>
    <https://www.wikidata.org/entity/P856> <https://developer.mozilla.org/en-US/docs/Web/JavaScript>;
    <https://www.wikidata.org/entity/P179> "JavaScript"@en;
    <https://www.wikidata.org/entity/P1181> "80%"@en .
-<https://rdfa.info/play/Q42478>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q42478>
    <https://www.wikidata.org/entity/P856> <https://www.perl.org>;
    <https://www.wikidata.org/entity/P179> "Perl"@en;
    <https://www.wikidata.org/entity/P1181> "75%"@en .
-<https://rdfa.info/play/Q15777>
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q15777>
    <https://www.wikidata.org/entity/P856> <https://openclassrooms.com/courses/apprenez-a-programmer-en-c>;
    <https://www.wikidata.org/entity/P179> "C"@en;
    <https://www.wikidata.org/entity/P1181> "75%"@en .

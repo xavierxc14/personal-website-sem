@@ -1,0 +1,62 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/>
+   og:url "http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html"@en;
+   og:type "website"@en;
+   og:title "Kevin ABRIAL"@en;
+   og:description "IAMX, One Page Responsive HTML Resume Template"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
+   rdfa:usesVocabulary <http://dbpedia.org/ontology/>;
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/#kevinABRIAL>;
+   <https://www.wikidata.org/entity/Q271680> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q720314>;
+   <https://www.wikidata.org/entity/Q271680> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q17576071>;
+   <https://www.wikidata.org/entity/Q271680> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q94>;
+   <https://www.wikidata.org/entity/Q271680> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q1322933>;
+   <https://www.wikidata.org/entity/Q271680> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q747866>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q893195>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q484275>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q170658>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q2920921>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/autonomy>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q626225>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q6917873> .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/#creativeworks>
+   rdf:type schema:CreativeWork;
+   schema:url <https://rdfa.info/index.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/#kevinABRIAL>
+   rdf:type schema:Person;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/kevintrips.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q720314>
+   <https://www.wikidata.org/entity/P856> <https://spring.io>;
+   <https://www.wikidata.org/entity/P179> "Spring"@en;
+   <https://www.wikidata.org/entity/P1181> "95%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q17576071>
+   <https://www.wikidata.org/entity/P856> <https://ionicframework.com/>;
+   <https://www.wikidata.org/entity/P179> "Ionic"@en;
+   <https://www.wikidata.org/entity/P1181> "85%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q94>
+   <https://www.wikidata.org/entity/P856> <https://www.android.com/>;
+   <https://www.wikidata.org/entity/P179> "Android"@en;
+   <https://www.wikidata.org/entity/P1181> "80%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q1322933>
+   <https://www.wikidata.org/entity/P856> <https://symfony.com>;
+   <https://www.wikidata.org/entity/P179> "Symfony"@en;
+   <https://www.wikidata.org/entity/P1181> "75%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html/Q747866>
+   <https://www.wikidata.org/entity/P856> <http://hibernate.org>;
+   <https://www.wikidata.org/entity/P179> "Hibernate"@en;
+   <https://www.wikidata.org/entity/P1181> "80%"@en .
+<https://www.wikidata.org/entity/Q893195>
+   <https://www.wikidata.org/entity/P856> <http://getbootstrap.com>;
+   <https://www.wikidata.org/entity/P179> "Bootstrap"@en;
+   <https://www.wikidata.org/entity/P1181> "100%"@en .
