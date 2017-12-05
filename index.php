@@ -1,6 +1,15 @@
 <?php
 
 $accept = explode(',', $_SERVER['HTTP_ACCEPT']);
+if (in_array('text/turtle', $accept)) {
+    http_response_code(303);
+    header('Location: htaccess/kevin/kevincv.ttl');
+    die();
+}
+
+
+
+$accept = explode(',', $_SERVER['HTTP_ACCEPT']);
 if (in_array('application/rdf+xml', $accept)) {
     http_response_code(303);
     header('Location: htaccess/index.rdf');
@@ -13,4 +22,6 @@ if (in_array('application/rdf+xml', $accept)) {
 else {
 header( 'Location: /index.html' ) ;
 }
+
+
 ?>
