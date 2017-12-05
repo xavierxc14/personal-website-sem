@@ -13,4 +13,5 @@ if (in_array('application/rdf+xml', $accept)) {
 else {
 header( 'Location: /index.html' ) ;
 }
+
 ?>
