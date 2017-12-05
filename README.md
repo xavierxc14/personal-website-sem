@@ -1,5 +1,7 @@
-# personal-website-sem
+# Rapport personal-website-sem Semantic Web 
 
+## Quelques informations
+Le git est sur l'URL suivante : https://github.com/xavierxc14/personal-website-sem
 Le site est sur l'URL suivante : http://personal-website-sem.herokuapp.com/
 
 
@@ -12,3 +14,12 @@ pages,​ ​ et​ ​ des​ ​ ​ liens​ ​ extérieurs​ ​ vers​ �
 directement​ ​ (voir​ ​ Apache​ ​ .htaccess​ ​ par​ ​ exemple)
 - Qu'avec​ ​ les​ ​ outils​ ​ de​ ​ Web​ ​ Scrapping​ ​ développés​ ​ par​ ​ un​ ​ autre​ ​ groupe,​ ​ on
 puisse​ ​ trouver​ ​ l'ensemble​ ​ des​ ​ triplets​ ​ du​ ​ site.
+
+
+## Authors
+
+* **Kevin ABRIAL**
+
+* **Xavier NAUNAY**
+
+* **Alexis BARTHELEMY**
