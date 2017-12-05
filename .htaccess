@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^alexis/cv.html$ /kevin/cv.html 
