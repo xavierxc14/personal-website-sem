@@ -12,7 +12,7 @@
 	<!-- fin metadonnees Twitter-->
 
 	<!-- debut metadonnees Facebook-->
-	<meta property="og:url"              	 content="http://personal-website-sem.herokuapp.com/kevin/languages.html" />
+	<meta property="og:url"              	 content="http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html" />
 	<meta property="og:type"               content="website" />
 	<meta property="og:title"              content="Kevin ABRIAL" />
 	<meta property="og:description"        content="IAMX, One Page Responsive HTML Resume Template" />
@@ -25,7 +25,7 @@
 	"http://schema.org/name": "Project Master 2 Donnees Systemes Connectees: Semantic Web",
 	"http://schema.org/location": "Saint-Etienne",
 	"http://schema.org/familyName": "Kevin ABRIAL",
-	"http://schema.org/url": { "@id": "http://personal-website-sem.herokuapp.com/kevin/languages.html" },
+	"http://schema.org/url": { "@id": "http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html" },
 	"http://schema.org/image": { "@id": "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg" }
 	}
 	</script>
@@ -36,7 +36,7 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Kevin ABRIAL" />
 		<meta property="og:description" content="IAMX, One Page Responsive HTML Resume Template" />
-		<meta property="og:url" content="http://personal-website-sem.herokuapp.com/kevin/languages.html" />
+		<meta property="og:url" content="http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html" />
 		<meta property="og:site_name" content="heroku.com" />
 	<!-- din metadonnees Pinterest-->
 
@@ -91,16 +91,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="../index.html">Home</a>
+					<span vocab="http://schema.org/" resource="#creativeworks" typeof="CreativeWork"><a class="navbar-brand" property="url" href="../index.html">Home</a></span>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="kevincv.html">CV</a></li>
-						<li><a href="kevinlanguages.html">Programming Languages</a></li>
-						<li><a href="kevintechnologies.html">Technologies</a></li>
-						<li><a href="kevinexperience.html">Experience</a></li>
-						<li><a href="kevintrips.html">Trips</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevincv.html">CV</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevinlanguages.html">Programming Languages</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevintechnologies.html">Technologies</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevinexperience.html">Experience</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevintrips.html">Trips</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
@@ -124,26 +124,26 @@
 							</div><!-- /.progress -->
 						</div><!-- /.skill-progress -->
 
-						<div class="skill-progress">
-							<div class="skill-title"><h3><strong><a href="https://www.w3schools.com/css/" target="_blank" style="text-decoration: underline;">CSS</a></strong></h3></div>
+						<div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q46441">
+							<div class="skill-title"><h3><strong><a property="P856" href="https://www.w3.org/Style/CSS/" target="_blank" style="text-decoration: underline;"><span property="P179">CSS</span></a></strong></h3></div>
 							<div class="progress">
 								<div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ><span property="P1181">100%</span>
 								</div>
 							</div><!-- /.progress -->
 						</div><!-- /.skill-progress -->
 
-            <div class="skill-progress">
-              <div class="skill-title"><h3><strong><a href="https://www.java.com/fr/" target="_blank" style="text-decoration: underline;">Java</a></strong></h3></div>
+            <div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q251">
+              <div class="skill-title"><h3><strong><a property="P856" href="https://www.oracle.com/java/" target="_blank" style="text-decoration: underline;"><span property="P179">Java</span></a></strong></h3></div>
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span property="P1181">80%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
 
-            <div class="skill-progress">
-							  <div class="skill-title"><h3><strong><a href="http://php.net/manual/fr/intro-whatis.php" target="_blank" style="text-decoration: underline;">PHP</a></strong></h3></div>
+            <div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q59">
+							  <div class="skill-title"><h3><strong><a property="P856" href="http://php.net/manual/fr/intro-whatis.php" target="_blank" style="text-decoration: underline;"><span property="P179">PHP</span></a></strong></h3></div>
 								<div class="progress">
-								<div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span>80%</span>
+								<div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span property="P1181">80%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
@@ -152,24 +152,24 @@
           </div><!-- /.col-md-6 -->
 
           <div class="col-md-6">
-            <div class="skill-progress">
-              <div class="skill-title"><h3><strong><a href="https://www.javascript.com/" target="_blank" style="text-decoration: underline;">JavaScript</a></strong></h3></div>
+            <div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q2005">
+              <div class="skill-title"><h3><strong><a property="P856" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" style="text-decoration: underline;"><span property="P179">JavaScript</span></a></strong></h3></div>
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span property="P1181">80%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3><strong><a href="https://www.perl.org/learn.html" target="_blank" style="text-decoration: underline;">Perl</a></strong></h3></div>
+            <div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q42478">
+              <div class="skill-title"><h3><strong><a property="P856" href="https://www.perl.org" target="_blank" style="text-decoration: underline;"><span property="P179">Perl</span></a></strong></h3></div>
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span property="P1181">75%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
-            <div class="skill-progress">
-              <div class="skill-title"><h3><strong><a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-c" target="_blank" style="text-decoration: underline;">C</a></strong></h3></div>
+            <div class="skill-progress" vocab="https://www.wikidata.org/entity/" rel="http://dbpedia.org/ontology/skills" resource="Q15777">
+              <div class="skill-title"><h3><strong><a property="P856" href="https://openclassrooms.com/courses/apprenez-a-programmer-en-c" target="_blank" style="text-decoration: underline;"><span property="P179">C</span>/a></strong></h3></div>
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span>75%</span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ><span property="P1181">75%</span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->

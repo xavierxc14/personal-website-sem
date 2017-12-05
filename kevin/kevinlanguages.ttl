@@ -1,16 +1,60 @@
 @prefix og: <http://ogp.me/ns#> .
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<https://rdfa.info/play/>
-   og:url "http://personal-website-sem.herokuapp.com/kevin/languages.html"@en;
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/>
+   og:url "http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html"@en;
    og:type "website"@en;
    og:title "Kevin ABRIAL"@en;
    og:description "IAMX, One Page Responsive HTML Resume Template"@en;
    og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
    og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
    rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
-   <http://dbpedia.org/ontology/skills> <https://rdfa.info/play/Q2053> .
-<https://rdfa.info/play/Q2053>
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#kevinABRIAL>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2053>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q46441>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q251>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q59>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2005>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q42478>;
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q15777> .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#creativeworks>
+   rdf:type schema:CreativeWork;
+   schema:url <https://rdfa.info/index.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#kevinABRIAL>
+   rdf:type schema:Person;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/kevintrips.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2053>
    <https://www.wikidata.org/entity/P856> <http://www.w3.org/TR/html5/>;
    <https://www.wikidata.org/entity/P179> "HTML5"@en;
    <https://www.wikidata.org/entity/P1181> "100%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q46441>
+   <https://www.wikidata.org/entity/P856> <https://www.w3.org/Style/CSS/>;
+   <https://www.wikidata.org/entity/P179> "CSS"@en;
+   <https://www.wikidata.org/entity/P1181> "100%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q251>
+   <https://www.wikidata.org/entity/P856> <https://www.oracle.com/java/>;
+   <https://www.wikidata.org/entity/P179> "Java"@en;
+   <https://www.wikidata.org/entity/P1181> "80%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q59>
+   <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
+   <https://www.wikidata.org/entity/P179> "PHP"@en;
+   <https://www.wikidata.org/entity/P1181> "80%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2005>
+   <https://www.wikidata.org/entity/P856> <https://developer.mozilla.org/en-US/docs/Web/JavaScript>;
+   <https://www.wikidata.org/entity/P179> "JavaScript"@en;
+   <https://www.wikidata.org/entity/P1181> "80%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q42478>
+   <https://www.wikidata.org/entity/P856> <https://www.perl.org>;
+   <https://www.wikidata.org/entity/P179> "Perl"@en;
+   <https://www.wikidata.org/entity/P1181> "75%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q15777>
+   <https://www.wikidata.org/entity/P856> <https://openclassrooms.com/courses/apprenez-a-programmer-en-c>;
+   <https://www.wikidata.org/entity/P179> "C"@en;
+   <https://www.wikidata.org/entity/P1181> "75%"@en .
