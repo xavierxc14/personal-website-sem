@@ -2,6 +2,7 @@
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
 @prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/>
    og:url "http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html"@en;
@@ -26,7 +27,8 @@
    <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q2920921>;
    <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/autonomy>;
    <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q626225>;
-   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q6917873> .
+   <http://dbpedia.org/ontology/skills> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q6917873>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q12948581> .
 <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/#creativeworks>
    rdf:type schema:CreativeWork;
    schema:url <https://rdfa.info/index.html> .
@@ -65,3 +67,5 @@
    <https://www.wikidata.org/entity/P856> <https://openclassrooms.com/courses/apprenez-a-programmer-en-c>;
    <https://www.wikidata.org/entity/P179> "C"@en;
    <https://www.wikidata.org/entity/P1181> "75%"@en .
+<http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
