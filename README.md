@@ -47,6 +47,13 @@ Nous avons utilisés les liens suivants :
 - Pour utiliser le référencement Twitter : https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started  et https://cards-dev.twitter.com/validator 
 - Pour utiliser le référencement Facebook : https://developers.facebook.com/docs/sharing/webmasters#markup
 
+
+## Vocabulaire utiliser
+
+- http://schema.org/
+- https://www.wikidata.org/wiki/Wikidata:Main_Page
+- http://wiki.dbpedia.org/
+
 ## Professeur
 
 * Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ 
