@@ -46,7 +46,7 @@ Nous avons utilisés les liens suivants :
 - Pour utiliser le référencement Pinterest : https://developers.pinterest.com/docs/rich-pins/articles/ et  https://developers.pinterest.com/tools/url-debugger/ 
 - Pour utiliser le référencement Twitter : https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started  et https://cards-dev.twitter.com/validator 
 - Pour utiliser le référencement Facebook : https://developers.facebook.com/docs/sharing/webmasters#markup
-
+- Apache .htaccess : https://httpd.apache.org/docs/2.2/fr/howto/htaccess.html
 
 ## Vocabulaire utiliser
 
