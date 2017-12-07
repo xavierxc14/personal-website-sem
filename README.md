@@ -37,7 +37,7 @@ Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui
 
 ### Visualisation du graph de chaque page
 
-![index.html](http://personal-website-sem.herokuapp.com/assets/images/rapport/index.png)
+![index.html](http://personal-website-sem.herokuapp.com/assets/images/rapport/index.png) http://personal-website-sem.herokuapp.com/index.html
 
 ## Utilisation de méthodes pour réaliser ce projet
 
