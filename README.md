@@ -16,7 +16,7 @@ puisse trouver l'ensemble des triplets du site.
 
 Attention :warning: la première requete peut être longue à cause de Heroku ^^ !
 
-## Le code est un reposiroty Github
+## Le code est un repository Github
 
 - Le git est sur l'URL suivante : https://github.com/xavierxc14/personal-website-sem
 
@@ -29,9 +29,9 @@ Ensuite, il y a 3 types de Personnes, Il suffit d'aller sur le losange pour alle
 
 Chaque site pour chaque personne de notre groupe a référencer son propre site, avec les techniques de Semantic Web vue en cours et lors des séances de travaux pratiques. 
 
-## Manipulation du Turtle et de RDFa
+## Manipulation du Turtle et de RDFa avec Apache .htaccess
 
-Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il suffit de changer le head et de demander : Accept , text/turtle pour avoir la page courante html en turtle.
+Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il suffit de changer le head et de demander : Accept , text/turtle pour avoir la page courante html en turtle. Par exemple pour l'index, on peut accéder au turtle avec la redirection automatique grâce a Apache .htaccess sur le lien suivant : http://personal-website-sem.herokuapp.com/index.ttl
 
 Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider conformance de votre page à RDFa.
 
@@ -47,6 +47,11 @@ Nous avons utilisés les liens suivants :
 - Pour utiliser le référencement Twitter : https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started  et https://cards-dev.twitter.com/validator 
 - Pour utiliser le référencement Facebook : https://developers.facebook.com/docs/sharing/webmasters#markup
 
+## Professeur
+
+* Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ 
+
+
 ## Authors
 
 * **Kevin ABRIAL**
@@ -54,7 +59,3 @@ Nous avons utilisés les liens suivants :
 * **Xavier NAUNAY**
 
 * **Alexis BARTHELEMY**
-
-## Professeur
-
-* **Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ ** 
