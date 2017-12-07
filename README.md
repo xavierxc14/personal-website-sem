@@ -29,12 +29,23 @@ Ensuite, il y a 3 types de Personnes, Il suffit d'aller sur le losange pour alle
 
 Chaque site pour chaque personne de notre groupe a référencer son propre site, avec les techniques de Semantic Web vue en cours et lors des séances de travaux pratiques. 
 
+## Manipulation du Turtle et de RDFa
 
+Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il suffit de changer le head et de demander : Accept , text/turtle pour avoir la page courante html en turtle.
 
- 
+Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider conformance de votre page à RDFa.
 
+# Utilisation de méthodes pour réaliser ce projet
 
+Nous avons utilisés les liens suivants : 
 
+- Pour utiliser RDFa : https://rdfa.info/play/
+- Pour retrouver le vocabulaire que l'on voulait utiliser : http://lov.okfn.org/dataset/lov/
+- Pour se documenter sur le vocabulaire : http://prefix.cc/
+- Pour utiliser le référencement Google : https://developers.google.com/search/docs/guides/intro-structured-data
+- Pour utiliser le référencement Pinterest : https://developers.pinterest.com/docs/rich-pins/articles/ et  https://developers.pinterest.com/tools/url-debugger/ 
+- Pour utiliser le référencement Twitter : https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started  et https://cards-dev.twitter.com/validator 
+- Pour utiliser le référencement Facebook : https://developers.facebook.com/docs/sharing/webmasters#markup
 
 ## Authors
 
@@ -44,4 +55,6 @@ Chaque site pour chaque personne de notre groupe a référencer son propre site,
 
 * **Alexis BARTHELEMY**
 
-* **Professeur: Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ ** *
+## Professeur
+
+* **Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ ** 
