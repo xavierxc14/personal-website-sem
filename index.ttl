@@ -2,8 +2,9 @@
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
 @prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://personal-website-sem.herokuapp.com/index.html/>
+<http://personal-website-sem.herokuapp.com/index.html>
    og:url "http://personal-website-sem.herokuapp.com/index.html"@en;
    og:type "website"@en;
    og:title "Project Semantic Web"@en;
@@ -11,36 +12,41 @@
    og:image "http://personal-website-sem.herokuapp.com/assets/images/counter-bg.jpg"@en;
    og:site_name "heroku.com"@en;
    rdfa:usesVocabulary schema:;
-   schema:knows <http://personal-website-sem.herokuapp.com/index.html/#kevinABRIAL> .
-<http://personal-website-sem.herokuapp.com/index.html/#subOrganization>
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<http://personal-website-sem.herokuapp.com>
    rdf:type schema:subOrganization;
-   schema:about <http://personal-website-sem.herokuapp.com/index.html/#creativeworks>;
+   schema:about <http://personal-website-sem.herokuapp.com/index.html>;
    schema:legalName "Kevin ABRIAL & Xavier NAUNAY & Alexis BARTHELEMY "@en;
-   schema:knows <http://personal-website-sem.herokuapp.com/index.html/#maximeLefrancois>;
-   schema:knows <http://personal-website-sem.herokuapp.com/index.html/#kevinABRIAL> .
-<http://personal-website-sem.herokuapp.com/index.html/#creativeworks>
+   schema:knows <http://www.maxime-lefrancois.info/me#>;
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   schema:memberOf <https://www.univ-st-etienne.fr/fr/index.html>;
+   schema:memberOf <http://www.mines-stetienne.fr/> .
+<http://personal-website-sem.herokuapp.com/index.html>
    rdf:type schema:CreativeWork;
    schema:comment "Project Master 2 Donnees Systemes Connectees: "@en;
    schema:about "Semantic Web"@en .
-<http://personal-website-sem.herokuapp.com/index.html/#maximeLefrancois>
+<http://www.maxime-lefrancois.info/me#>
    rdf:type schema:Person;
    schema:url <http://www.maxime-lefrancois.info/>;
    schema:name " Maxime LEFRANCOIS"@en .
-<http://personal-website-sem.herokuapp.com/index.html/#organizationUJM>
+<https://www.univ-st-etienne.fr/fr/index.html>
    rdf:type schema:Organization;
-   schema:url <http://personal-website-sem.herokuapp.com/index.html/#organizationUJM>;
+   schema:url <https://www.univ-st-etienne.fr/fr/index.html>;
    schema:legalName "UJM Saint-Etienne "@en;
    schema:adress """10 Rue Trefilerie
                     Saint-Etienne France"""@en .
-<http://personal-website-sem.herokuapp.com/index.html/#organizationEcolesDesMines>
+<http://www.mines-stetienne.fr/>
    rdf:type schema:Organization;
-   schema:url <http://personal-website-sem.herokuapp.com/index.html/#organizationEcolesDesMines>;
+   schema:url <http://www.mines-stetienne.fr/>;
    schema:legalName "Ecole des mines de Saint-Etienne"@en;
    schema:adress """158 Cours Fauriel
                     Saint-Etienne France"""@en .
-<http://personal-website-sem.herokuapp.com/index.html/#kevinABRIAL>
+<http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
    rdf:type schema:Person;
-   schema:url <http://personal-website-sem.herokuapp.com/index.html/kevin/kevincv.html>;
-   schema:name "KA"@en;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   foaf:nick "KA"@en;
    schema:name "Kevin ABRIAL"@en;
    schema:email <mailto:kevin.abrial@etu.univ-st-etienne.fr> .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
