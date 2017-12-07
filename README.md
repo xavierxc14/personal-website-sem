@@ -56,7 +56,7 @@ Nous avons utilisés les liens suivants :
 
 ## Professeur
 
-* Maxime LERFANCOIS, Personal website: http://www.maxime-lefrancois.info/ 
+* Maxime LEFRANCOIS, Personal website: http://www.maxime-lefrancois.info/ 
 
 
 ## Authors
