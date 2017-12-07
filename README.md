@@ -35,6 +35,10 @@ Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il 
 
 Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider conformance de votre page à RDFa.
 
+### Visualisation du graph de chaque page
+
+![index.html](http://personal-website-sem.herokuapp.com/assets/images/rapport/index.png)
+
 ## Utilisation de méthodes pour réaliser ce projet
 
 Nous avons utilisés les liens suivants : 
