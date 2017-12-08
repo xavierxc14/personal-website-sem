@@ -29,15 +29,50 @@ Ensuite, il y a 3 types de Personnes, Il suffit d'aller sur le losange pour alle
 
 Chaque site pour chaque personne de notre groupe a référencer son propre site, avec les techniques de Semantic Web vue en cours et lors des séances de travaux pratiques. 
 
+Le but est que chacun implémente son modele de donnée qui correspond au CV personnel de chacun des membres de notre groupe.
+
 ## Manipulation du Turtle et de RDFa avec Apache .htaccess
 
 Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il suffit de changer le head et de demander : Accept , text/turtle pour avoir la page courante html en turtle. Par exemple pour l'index, on peut accéder au turtle avec la redirection automatique grâce a Apache .htaccess sur le lien suivant : http://personal-website-sem.herokuapp.com/index.ttl
 
 Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider conformance de votre page à RDFa.
 
-### Visualisation du graph de chaque page
+### Exemple de visualisation du graph de notre page index.html
 
-![index.html](http://personal-website-sem.herokuapp.com/assets/images/rapport/index.png) correspond à la page suivante : http://personal-website-sem.herokuapp.com/index.html
+
+- Voici, donc un exemple de graph que l'on peut obtenir grâce au lien https://rdfa.info/play/  et du mode visualisation :
+![index.html](http://personal-website-sem.herokuapp.com/assets/images/rapport/index.png) correspond à la page suivante : http://personal-website-sem.herokuapp.com/index.html 
+
+
+## Partie Kevin ABRIAL
+
+Pour ma partie, il existe 5 différentes pages (accessible avec les URL suivantes) : 
+- http://personal-website-sem.herokuapp.com/kevin/kevincv.html
+- http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html
+- http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html
+- http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html
+- http://personal-website-sem.herokuapp.com/kevin/kevintrips.html (:warning: le chargement de cette page est longue due aux nombres de photos.)
+
+Pour pouvoir avoir le fichier turtle, (activez le mode head en text/turtle) et la redirection se fait automatiquement avec une redirection 303 sur les differentes pages suivantes : 
+- http://personal-website-sem.herokuapp.com/kevin/kevincv.ttl
+- http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.ttl
+- http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.ttl
+- http://personal-website-sem.herokuapp.com/kevin/kevinexperience.ttl
+- http://personal-website-sem.herokuapp.com/kevin/kevintrips.ttl
+
+Ceci correspond a tous les triplets disponibles dans les pages html correspondante.
+
+- http://personal-website-sem.herokuapp.com/kevin/kevincv.html, m'a permis d'utiliser les vocabulaires de wikidata, dbpedia et de schema.org (Voir les liens dans la partie Vocabulaire utiliser)
+- http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html et http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html, m'a permis d'utiliser les vocabulaires de wikidata, dbpedia et de schema.org (Voir les liens dans la partie Vocabulaire utiliser), notamment wikidata pour les langages et les frameworks qui sont dans wikidata.
+- http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html, m'a permis d'utiliser les vocabulaires de wikidata, dbpedia et de schema.org (Voir les liens dans la partie Vocabulaire utiliser)
+- http://personal-website-sem.herokuapp.com/kevin/kevintrips.html, m'a permis d'utiliser le vocabulaire liée des images, ainsi, j'ai pu décrire mes propres photos et référencer d'autres photos que j'ai pu prendre sur Internet.
+
+## Partie Xavier NAUNAY
+
+
+## Partie Alexis BARTHELEMY 
+
+
 
 ## Utilisation de méthodes pour réaliser ce projet
 
@@ -57,6 +92,25 @@ Nous avons utilisés les liens suivants :
 - http://schema.org/
 - https://www.wikidata.org/wiki/Wikidata:Main_Page
 - http://wiki.dbpedia.org/
+
+## Conclusion
+
+Ce projet fut très très intéressant, ce que nous avons appris pourrait être appliquer dans d'autres situations, cela nous apermis de voir une nouvelle matière, encore méconnue lors de nos cursus, nous avons bien aimer faire du référencement de site Web. Nous avons pu remanipuler ce nous avons appris en cours et en travaux pratiques.
+
+### Avis personnels
+
+
+Kevin ABRIAL : 
+Pour ma part, j'ai été très intéressant par cette matière, je suis très passioné par le Semantic Web, j'ai pu découvrir un nouveau domaine dans le Web, ce qui rend encore plus intéressant car cela englobe le domaine du Web, ce qui concorde avec mon objectif personnel dans le domaine du Web. Grâce à cette apprentissage, je peux dés à présent faire du référencement de site web et je peux améliorer n'importe quel site web sur Internet, grâce a l'apprentissage du cours avec les techniques de Semantic Web.
+Cepedant, mon sujet de projet n'hésite pas l'utilisation de SPARQL, que j'ai pu utiliser uniquement lors des séances de travaux prartiques prévu à cette effet.
+Pour finir, je tiens a remercier particulierement, Monsieur Maxime LEFRANCOIS pour son aide a toutes mes questions que j'ai pu lui poser et pour son enseignement de la matière Semantic Web.
+
+Xavier NAUNAY : 
+
+
+Alexis BARTHELEMY : 
+
+
 
 ## Professeur
 
