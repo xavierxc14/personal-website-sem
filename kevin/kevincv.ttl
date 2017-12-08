@@ -1,0 +1,79 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://personal-website-sem.herokuapp.com/kevin/kevincv.html/>
+   og:url "http://personal-website-sem.herokuapp.com/kevin/kevincv.html"@en;
+   og:type "website"@en;
+   og:title "Kevin ABRIAL"@en;
+   og:description "IAMX, One Page Responsive HTML Resume Template"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<http://personal-website-sem.herokuapp.com/>
+   rdf:type schema:CreativeWork;
+   schema:url <https://rdfa.info/index.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
+   rdf:type schema:Person;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevintrips.html>;
+   schema:url <http://www.maxime-lefrancois.info/>;
+   schema:url <https://www.univ-st-etienne.fr/fr/index.html>;
+   schema:url <http://www.mines-stetienne.fr/>;
+   schema:url <http://depinfo.univ-st-etienne.fr/Master/dsc.php>;
+   schema:url <https://www.univ-st-etienne.fr/fr/formation/licence-XA/sciences-technologies-sante-STS/licence-informatique-program-licence-informatique.html>;
+   schema:url <http://www.lycee-camus.com/spip.php?article76&lang=fr>;
+   schema:image <https://rdfa.info/assets/images/kevin/kevin.jpg>;
+   schema:gender "Male"@en;
+   schema:name "Kevin ABRIAL"@en;
+   schema:name "University Jean Monnet of Saint-Etienne"@en;
+   schema:birthDate "01 Juillet 1994"@en;
+   schema:address "15Bis Rue Penel Unieux, France."@en;
+   schema:nationality "French/Portuguese"@en;
+   schema:telephone "(+33) 0 00 00 00 00"@en;
+   schema:email "kevin.abrial@etu.univ-st-etienne.fr"@en;
+   <https://www.wikidata.org/entity/Q3880557> "This website is used for reference with Semantic Web stuff."@en;
+   <https://www.wikidata.org/entity/Q1780466> """I'm student at the University of Saint-Etienne.
+								I realize this website for the project of Semantic Web for reference website.
+                 I would like to say thank you to Mister Maxime LEFRANCOIS to learn about Semantic Web.
+								(Website of the teacher)
+                (Website of UJM Saint-Etienne)
+                (Website of Ecole des mines de Saint-Etienne)
+
+              """@en;
+   <https://www.wikidata.org/entity/Q19279214> "I would like to say thank you"@en;
+   <https://www.wikidata.org/entity/Q600134> "Semantic Web"@en;
+   <https://www.wikidata.org/entity/Q600134> "Interface Design"@en;
+   <https://www.wikidata.org/entity/Q600134> "Web Development"@en;
+   <https://www.wikidata.org/entity/Q600134> "Information Retrieval"@en;
+   <https://www.wikidata.org/entity/Q600134> "Web Services"@en;
+   <https://www.wikidata.org/entity/Q600134> "Mobile Development"@en;
+   schema:dbpedia.org/ontology/Resume "Resume"@en;
+   <https://www.wikidata.org/entity/Q8434> "Education"@en;
+   schema:Date "2016-2018"@en;
+   schema:Date "2013-2016"@en;
+   schema:Date "2012-2013"@en;
+   <https://www.wikidata.org/entity/Q183816> "Master's degree"@en;
+   <https://www.wikidata.org/entity/Q216353> "Données et Systèmes Connectés, Saint-Etienne, France"@en;
+   <https://www.wikidata.org/entity/Q216353> "Computer Science, Saint-Etienne, France"@en;
+   <https://www.wikidata.org/entity/Q163727> "Bachelor's degree"@en;
+   <https://www.wikidata.org/entity/Q4838607> "Baccalaureate Scientific speciality Sciences Vie et de la Terre."@en;
+   <https://www.wikidata.org/entity/Q2511322> "Lycee Albert Camus, Firminy, France"@en;
+   <https://www.wikidata.org/entity/Q2511322> "Lycee Albert Camus"@en .
+<http://www.maxime-lefrancois.info/>
+   rdf:type schema:Person .
+<https://www.univ-st-etienne.fr/fr/index.html>
+   rdf:type schema:Organization;
+   schema:memberOf "UJM Saint-Etienne"@en .
+<http://www.mines-stetienne.fr/>
+   rdf:type schema:Organization;
+   schema:memberOf "Ecole des mines de Saint-Etienne"@en .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
