@@ -16,7 +16,7 @@ puisse trouver l'ensemble des triplets du site.
 
 Attention :warning: la première requete peut être longue à cause de Heroku ^^ !
 
-## Le code est un repository Github
+## Le code est dans un repository Github
 
 - Le git est sur l'URL suivante : https://github.com/xavierxc14/personal-website-sem
 
