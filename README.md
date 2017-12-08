@@ -35,7 +35,7 @@ Le but est que chacun implémente son modele de donnée qui correspond au CV per
 
 Chaque site a un html (en extension .html) et un turtle (en extension .ttl), il suffit de changer le head et de demander : Accept , text/turtle pour avoir la page courante html en turtle. Par exemple pour l'index, on peut accéder au turtle avec la redirection automatique grâce a Apache .htaccess sur le lien suivant : http://personal-website-sem.herokuapp.com/index.ttl
 
-Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider conformance de votre page à RDFa.
+Le turtle à été généré automatique sur le lien https://rdfa.info/play/ qui nous permet en plus de valider la conformance de votre page à RDFa.
 
 ### Exemple de visualisation du graph de notre page index.html
 
