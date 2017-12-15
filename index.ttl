@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://personal-website-sem.herokuapp.com/index.html>
+<http://personal-website-sem.herokuapp.com/index.html/>
    og:url "http://personal-website-sem.herokuapp.com/index.html"@en;
    og:type "website"@en;
    og:title "Project Semantic Web"@en;

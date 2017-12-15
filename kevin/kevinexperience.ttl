@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/>
+<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>
    og:url "http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html"@en;
    og:type "website"@en;
    og:title "Kevin ABRIAL"@en;
@@ -12,30 +12,28 @@
    og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
    og:site_name "heroku.com"@en;
    rdfa:usesVocabulary schema:;
-   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
-   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/#kevinABRIAL>;
-   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/Q12948581> .
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/#creativeworks>
+   schema:knows <http://personal-website-sem.herokuapp.com/index.html>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<http://personal-website-sem.herokuapp.com/index.html>
    rdf:type schema:CreativeWork;
-   schema:url <https://rdfa.info/index.html> .
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/#kevinABRIAL>
    rdf:type schema:Person;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/kevincv.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/kevinlanguages.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/kevintechnologies.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/kevinexperience.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/kevintrips.html> .
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/#groupeCasino>
+   schema:url <https://rdfa.info/index.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
+<https://www.groupe-casino.fr/fr/>
    rdf:type schema:Organization;
    schema:Date "April 1, 2017 - August 31, 2017"@en;
    schema:JobPosting "Analyste Développeur"@en;
    schema:legalName "Groupe Casino"@en;
    schema:location "Saint-Etienne, France"@en;
    schema:url <https://www.groupe-casino.fr/fr/> .
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/#mairieDeFirminy>
+<http://www.ville-firminy.fr/>
    rdf:type schema:Organization;
    schema:Date "July 1, 2013 - July 5, 2013"@en;
    schema:location "Mairie Firminy, France"@en;
    schema:url <http://www.ville-firminy.fr/> .
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/Q12948581>
+<https://www.wikidata.org/entity/Q12948581>
    foaf:name "© TrendyTheme 2015. All rights reserved."@en .

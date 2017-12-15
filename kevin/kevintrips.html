@@ -64,7 +64,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <link rel="shortcut icon" href="../assets/images/ico/favicon.png">
+  <link rel="shortcut icon" href="../assets/images/ico/favicon2.png">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/ico/apple-touch-icon-72-precomposed.png">
@@ -91,16 +91,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<span vocab="http://schema.org/" resource="#creativeworks" typeof="CreativeWork"><a class="navbar-brand" property="url" href="../index.html">Home</a></span>
+					<span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="CreativeWork"><a class="navbar-brand" property="url" href="../index.html">Home</a></span>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevincv.html">CV</a></li>
-						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevinlanguages.html">Programming Languages</a></li>
-						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevintechnologies.html">Technologies</a></li>
-						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevinexperience.html">Experience</a></li>
-						<li vocab="http://schema.org/" property="knows" resource="#kevinABRIAL" typeof="Person"><a property="url" href="kevintrips.html">Trips</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="Person"><a property="url" href="kevincv.html">CV</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="Person"><a property="url" href="kevinlanguages.html">Programming Languages</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="Person"><a property="url" href="kevintechnologies.html">Technologies</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="Person"><a property="url" href="kevinexperience.html">Experience</a></li>
+						<li vocab="http://schema.org/" property="knows" resource="http://personal-website-sem.herokuapp.com/index.html" typeof="Person"><a property="url" href="kevintrips.html">Trips</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
@@ -109,21 +109,21 @@
 	<span id="home"></span>
 
     <!-- Works Section -->
-    <section id="works" class="works-section section-padding">
+    <section id="works" class="works-section section-padding" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeOf="Country" >
       <div class="container">
         <h2 class="section-title wow fadeInUp">Trips</h2>
 
         <ul class="list-inline" id="filter">
             <li><a class="active" data-group="all">All Countries</a></li>
-            <li><a data-group="portugal">Portugal</a></li>
-            <li><a data-group="france">France EURO 2016</a></li>
-						<li><a data-group="espagne">Espagne</a></li>
-						<li><a data-group="uk">UK</a></li>
-						<li><a data-group="usa">USA</a></li>
-						<li><a data-group="canada">Canada</a></li>
-            <li><a data-group="allemagne">Allemagne</a></li>
-            <li><a data-group="suisse">Suisse</a></li>
-						<li><a data-group="autriche">Autriche</a></li>
+            <li><a data-group="portugal" property="name">Portugal</a></li>
+            <li><a data-group="france" property="http://schema.org/Event">France EURO 2016</a></li>
+						<li><a data-group="espagne" property="name">Espagne</a></li>
+						<li><a data-group="uk" property="name">UK</a></li>
+						<li><a data-group="usa" property="name">USA</a></li>
+						<li><a data-group="canada" property="name">Canada</a></li>
+            <li><a data-group="allemagne" property="name">Allemagne</a></li>
+            <li><a data-group="suisse" property="name">Suisse</a></li>
+						<li><a data-group="autriche" property="name">Autriche</a></li>
 
         </ul>
 
@@ -134,12 +134,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/portugal/DSC04726.JPG"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/portugal/DSC04726.JPG"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/portugal/DSC04726.JPG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>Esposende, Portugal</h3>
+                  <img property="image" src="../assets/images/kevin/portugal/DSC04726.JPG" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">Esposende, Portugal</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -150,12 +150,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/DSC04727.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/DSC04727.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/DSC04727.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Esposende, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/DSC04727.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >Esposende, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -167,12 +167,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/DSC04728.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/DSC04728.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/DSC04728.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Esposende, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/DSC04728.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >Esposende, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -184,12 +184,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/DSC04730.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/DSC04730.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/DSC04730.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Esposende, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/DSC04730.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Esposende, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -200,12 +200,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/DSC04810.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/DSC04810.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/DSC04810.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Barcelos, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/DSC04810.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Barcelos, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -216,12 +216,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/IMG_1433.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/IMG_1433.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/IMG_1433.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Esposende, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/IMG_1433.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Esposende, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -232,12 +232,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/portugal/IMG_1434.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/portugal/IMG_1434.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/portugal/IMG_1434.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Esposende, Portugal</h3>
+									<img property="image" src="../assets/images/kevin/portugal/IMG_1434.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Esposende, Portugal</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -248,12 +248,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/france/IMG_1204.JPG"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/france/IMG_1204.JPG"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/france/IMG_1204.JPG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>France EURO 2016</h3>
+                  <img property="image" src="../assets/images/kevin/france/IMG_1204.JPG" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">France <span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Event">EURO 2016</span></h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -264,12 +264,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/france/IMG_1208.JPG"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/france/IMG_1208.JPG"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/france/IMG_1208.JPG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>France EURO 2016</h3>
+                  <img property="image" src="../assets/images/kevin/france/IMG_1208.JPG" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">France <span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Event">EURO 2016</span></h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -280,12 +280,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/france/IMG_1209.JPG"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/france/IMG_1209.JPG"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/france/IMG_1209.JPG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>France EURO 2016</h3>
+                  <img property="image" src="../assets/images/kevin/france/IMG_1209.JPG" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                   	<h3 property="location">France <span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Event">EURO 2016</span></h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -300,8 +300,8 @@
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
                   <img src="../assets/images/kevin/france/IMG_1210.JPG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>France EURO 2016</h3>
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">France <span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Event">EURO 2016</span></h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -316,8 +316,8 @@
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
                   <img src="../assets/images/kevin/france/IMG_1400.PNG" alt="image">
-                  <div class="portfolio-info">
-                    <h3>France EURO 2016</h3>
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">France <span vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Event">EURO 2016</span></h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -328,12 +328,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/uk/index.jpeg"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/uk/index.jpeg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/uk/index.jpeg" alt="image">
-                  <div class="portfolio-info">
-                    <h3>London</h3>
+                  <img property="photo" src="../assets/images/kevin/uk/index.jpeg" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+                    <h3 property="location">London</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -344,12 +344,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/uk/index2.jpeg"><i class="fa fa-search-plus"></i></a>
+                    <a proeprty="url" class="image-link" href="../assets/images/kevin/uk/index2.jpeg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/uk/index2.jpeg" alt="image">
-                  <div class="portfolio-info">
-                    <h3>Cardiff</h3>
+                  <img property="photo" src="../assets/images/kevin/uk/index2.jpeg" alt="image">
+                  <div class="portfolio-info" <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">>
+                    <h3 property="location" >Cardiff</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -360,12 +360,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/suisse/index.jpeg"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/suisse/index.jpeg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/suisse/index.jpeg" alt="image">
-                  <div class="portfolio-info">
-                    <h3>Suisse</h3>
+                  <img property="photo" src="../assets/images/kevin/suisse/index.jpeg" alt="image">
+                  <div class="portfolio-info" <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">>
+                    <h3 property="location">Suisse</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -376,12 +376,12 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="../assets/images/kevin/autriche/index.jpeg"><i class="fa fa-search-plus"></i></a>
+                    <a property="url" class="image-link" href="../assets/images/kevin/autriche/index.jpeg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/kevin/autriche/index.jpeg" alt="image">
-                  <div class="portfolio-info">
-                    <h3>Vienne</h3>
+                  <img property="photo" src="../assets/images/kevin/autriche/index.jpeg" alt="image">
+                  <div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">>
+                    <h3 property="location">Vienne</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -393,12 +393,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/allemagne/index.jpeg"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/allemagne/index.jpeg"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/allemagne/index.jpeg" alt="image">
-									<div class="portfolio-info">
-										<h3>Allemagne</h3>
+									<img property="photo" src="../assets/images/kevin/allemagne/index.jpeg" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Allemagne</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -409,61 +409,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05643.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05643.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05643.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05752.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05752.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05776.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05776.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05800.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05800.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05643.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -475,12 +426,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05818.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05752.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05818.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05752.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -491,46 +442,28 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05889.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05776.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05889.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05776.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
 						</div><!-- /.portfolio-item -->
-
 
 						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
 							<div class="portfolio-bg">
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05900.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05800.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05900.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05912.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05912.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05800.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -542,12 +475,28 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05941.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05818.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05941.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05818.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url"class="image-link" href="../assets/images/kevin/canada/DSC05889.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/canada/DSC05889.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -559,12 +508,63 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC05973.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05900.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC05973.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC05900.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05912.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/canada/DSC05912.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05941.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/canada/DSC05941.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "canada"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC05973.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image "src="../assets/images/kevin/canada/DSC05973.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -575,12 +575,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/canada/DSC06060.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/canada/DSC06060.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/canada/DSC06060.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Canada</h3>
+									<img property="image" src="../assets/images/kevin/canada/DSC06060.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Canada</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -592,12 +592,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05444.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05444.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05444.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05444.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -608,29 +608,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05472.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05472.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05472.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05444.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05444.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05472.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -642,12 +625,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05476.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05444.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05476.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05444.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -659,30 +642,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05532.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05476.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05532.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05552.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05552.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05476.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -694,12 +659,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05560.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05532.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05560.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05532.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -712,31 +677,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05561.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05552.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05561.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
-									</div><!-- /.portfolio-info -->
-								</div><!-- /.portfolio -->
-							</div><!-- /.portfolio-bg -->
-						</div><!-- /.portfolio-item -->
-
-
-
-
-						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
-							<div class="portfolio-bg">
-								<div class="portfolio">
-									<div class="tt-overlay"></div>
-									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05562.JPG"><i class="fa fa-search-plus"></i></a>
-										<a href="#"><i class="fa fa-link"></i></a>
-									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05562.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05552.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -748,16 +694,17 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05564.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05560.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05564.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05560.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
 						</div><!-- /.portfolio-item -->
+
 
 
 						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
@@ -765,12 +712,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05611.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05561.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05611.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05561.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -784,12 +731,65 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05612.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05562.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05612.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05562.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05564.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/usa/DSC05564.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05611.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/usa/DSC05611.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
+									</div><!-- /.portfolio-info -->
+								</div><!-- /.portfolio -->
+							</div><!-- /.portfolio-bg -->
+						</div><!-- /.portfolio-item -->
+
+
+
+
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "usa"]'>
+							<div class="portfolio-bg">
+								<div class="portfolio">
+									<div class="tt-overlay"></div>
+									<div class="links">
+										<a property="url" class="image-link" href="../assets/images/kevin/usa/DSC05612.JPG"><i class="fa fa-search-plus"></i></a>
+										<a href="#"><i class="fa fa-link"></i></a>
+									</div><!-- /.links -->
+									<img property="image" src="../assets/images/kevin/usa/DSC05612.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -800,12 +800,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/usa/DSC05616.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url"class="image-link" href="../assets/images/kevin/usa/DSC05616.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/usa/DSC05616.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>USA</h3>
+									<img property="image" src="../assets/images/kevin/usa/DSC05616.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">USA</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -816,12 +816,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/espagne/IMG_0567.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/espagne/IMG_0567.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/espagne/IMG_0567.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Spain</h3>
+									<img property="image" src="../assets/images/kevin/espagne/IMG_0567.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Spain</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -832,12 +832,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/espagne/IMG_0683.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/espagne/IMG_0683.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/espagne/IMG_0683.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Spain</h3>
+									<img property="image" src="../assets/images/kevin/espagne/IMG_0683.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location">Spain</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -848,12 +848,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/espagne/IMG_0793.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/espagne/IMG_0793.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/espagne/IMG_0793.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Spain</h3>
+									<img property="image" src="../assets/images/kevin/espagne/IMG_0793.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >Spain</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -865,12 +865,12 @@
 								<div class="portfolio">
 									<div class="tt-overlay"></div>
 									<div class="links">
-										<a class="image-link" href="../assets/images/kevin/espagne/IMG_0796.JPG"><i class="fa fa-search-plus"></i></a>
+										<a property="url" class="image-link" href="../assets/images/kevin/espagne/IMG_0796.JPG"><i class="fa fa-search-plus"></i></a>
 										<a href="#"><i class="fa fa-link"></i></a>
 									</div><!-- /.links -->
-									<img src="../assets/images/kevin/espagne/IMG_0796.JPG" alt="image">
-									<div class="portfolio-info">
-										<h3>Spain</h3>
+									<img property="image" src="../assets/images/kevin/espagne/IMG_0796.JPG" alt="image">
+									<div class="portfolio-info" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevintrips.html" typeof="Place">
+										<h3 property="location" >Spain</h3>
 									</div><!-- /.portfolio-info -->
 								</div><!-- /.portfolio -->
 							</div><!-- /.portfolio-bg -->
@@ -890,25 +890,25 @@
           <div class="row">
             <div class="col-md-12">
               <div class="count-wrap">
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6" vocab="http://schema.org/" resource="http://personal-website-sem.herokuapp.com/kevin/kevincv.html" typeOf="JobPosting">
                   <i class="fa fa-flask"></i>
-                  <h3 class="timer">7</h3>
-                  <p>Years of Experience</p>
+                  <h3 class="timer" property="https://www.wikidata.org/entity/Q11563" >1</h3>
+                  <p property="experienceRequirements">Years of Experience</p>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6" vocab="https://www.wikidata.org/entity" resource="http://personal-website-sem.herokuapp.com/kevin/kevincv.html" typeOf="Q170584">
                   <i class="fa fa-thumbs-up"></i>
-                  <h3 class="timer">651</h3>
-                  <p>Projects Done</p>
+                  <h3 class="timer" property="https://www.wikidata.org/entity/Q11563">50</h3>
+                  <p property="https://www.wikidata.org/entity/Q82799" >Projects Done</p>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6" vocab="https://www.wikidata.org/entity" resource="http://personal-website-sem.herokuapp.com/kevin/kevincv.html" typeOf="Q852835">
                   <i class="fa fa-users"></i>
-                  <h3 class="timer">251</h3>
-                  <p>Happy Clients</p>
+                  <h3 class="timer" property="https://www.wikidata.org/entity/Q11563">1</h3>
+                  <p property="https://www.wikidata.org/entity/Q82799">Happy Clients</p>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6" vocab="https://www.wikidata.org/entity" resource="http://personal-website-sem.herokuapp.com/kevin/kevincv.html" typeOf="Q618779">
                   <i class="fa fa-trophy"></i>
-                  <h3 class="timer">5</h3>
-                  <p>Awards Won</p>
+                  <h3 class="timer" property="https://www.wikidata.org/entity/Q11563">0</h3>
+                  <p property="https://www.wikidata.org/entity/Q82799">Awards Won</p>
                 </div>
               </div><!-- /count-wrap -->
             </div><!-- /.col-md-12 -->

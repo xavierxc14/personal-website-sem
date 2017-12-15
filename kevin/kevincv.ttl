@@ -12,24 +12,20 @@
    og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
    og:site_name "heroku.com"@en;
    rdfa:usesVocabulary schema:;
-   schema:knows <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   schema:knows <http://personal-website-sem.herokuapp.com/index.html>;
    <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
 <http://personal-website-sem.herokuapp.com/>
    rdf:type schema:CreativeWork;
    schema:url <https://rdfa.info/index.html> .
+<http://personal-website-sem.herokuapp.com/index.html>
+   rdf:type schema:Person;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
 <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
    rdf:type schema:Person;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevincv.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevinlanguages.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevintechnologies.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevinexperience.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html/kevintrips.html>;
-   schema:url <http://www.maxime-lefrancois.info/>;
-   schema:url <https://www.univ-st-etienne.fr/fr/index.html>;
-   schema:url <http://www.mines-stetienne.fr/>;
-   schema:url <http://depinfo.univ-st-etienne.fr/Master/dsc.php>;
-   schema:url <https://www.univ-st-etienne.fr/fr/formation/licence-XA/sciences-technologies-sante-STS/licence-informatique-program-licence-informatique.html>;
-   schema:url <http://www.lycee-camus.com/spip.php?article76&lang=fr>;
    schema:image <https://rdfa.info/assets/images/kevin/kevin.jpg>;
    schema:gender "Male"@en;
    schema:name "Kevin ABRIAL"@en;
@@ -55,6 +51,12 @@
    <https://www.wikidata.org/entity/Q600134> "Information Retrieval"@en;
    <https://www.wikidata.org/entity/Q600134> "Web Services"@en;
    <https://www.wikidata.org/entity/Q600134> "Mobile Development"@en;
+   schema:url <http://www.maxime-lefrancois.info/>;
+   schema:url <https://www.univ-st-etienne.fr/fr/index.html>;
+   schema:url <http://www.mines-stetienne.fr/>;
+   schema:url <http://depinfo.univ-st-etienne.fr/Master/dsc.php>;
+   schema:url <https://www.univ-st-etienne.fr/fr/formation/licence-XA/sciences-technologies-sante-STS/licence-informatique-program-licence-informatique.html>;
+   schema:url <http://www.lycee-camus.com/spip.php?article76&lang=fr>;
    schema:dbpedia.org/ontology/Resume "Resume"@en;
    <https://www.wikidata.org/entity/Q8434> "Education"@en;
    schema:Date "2016-2018"@en;

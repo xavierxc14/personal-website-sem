@@ -1,0 +1,147 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://personal-website-sem.herokuapp.com/kevin/kevintrips.html>
+   og:url "http://personal-website-sem.herokuapp.com/kevin/kevintrips.html"@en;
+   og:type "website"@en;
+   og:title "Kevin ABRIAL"@en;
+   og:description "IAMX, One Page Responsive HTML Resume Template"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity>;
+   schema:knows <http://personal-website-sem.herokuapp.com/index.html>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<http://personal-website-sem.herokuapp.com/index.html>
+   rdf:type schema:CreativeWork;
+   rdf:type schema:Person;
+   schema:url <https://rdfa.info/index.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.htmlkevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
+<http://personal-website-sem.herokuapp.com/kevin/kevintrips.html>
+   rdf:type schema:Country;
+   rdf:type schema:Place;
+   rdf:type schema:Event;
+   schema:name "Portugal"@en;
+   schema:name "Espagne"@en;
+   schema:name "UK"@en;
+   schema:name "USA"@en;
+   schema:name "Canada"@en;
+   schema:name "Allemagne"@en;
+   schema:name "Suisse"@en;
+   schema:name "Autriche"@en;
+   schema:Event "France EURO 2016"@en;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/DSC04726.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/DSC04727.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/DSC04728.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/DSC04730.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/DSC04810.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/IMG_1433.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/portugal/IMG_1434.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/france/IMG_1204.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/france/IMG_1208.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/france/IMG_1209.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/uk/index.jpeg>;
+   schema:url <https://rdfa.info/assets/images/kevin/suisse/index.jpeg>;
+   schema:url <https://rdfa.info/assets/images/kevin/autriche/index.jpeg>;
+   schema:url <https://rdfa.info/assets/images/kevin/allemagne/index.jpeg>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05643.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05752.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05776.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05800.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05818.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05889.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05900.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05912.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05941.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC05973.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/canada/DSC06060.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05444.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05472.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05476.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05532.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05552.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05560.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05561.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05562.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05564.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05611.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05612.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/usa/DSC05616.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/espagne/IMG_0567.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/espagne/IMG_0683.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/espagne/IMG_0793.JPG>;
+   schema:url <https://rdfa.info/assets/images/kevin/espagne/IMG_0796.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/DSC04726.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/DSC04727.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/DSC04728.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/DSC04730.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/DSC04810.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/IMG_1433.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/portugal/IMG_1434.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/france/IMG_1204.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/france/IMG_1208.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/france/IMG_1209.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05643.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05752.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05776.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05800.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05818.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05889.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05900.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05912.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05941.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC05973.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/canada/DSC06060.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05444.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05472.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05476.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05532.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05552.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05560.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05561.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05562.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05564.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05611.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05612.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/usa/DSC05616.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/espagne/IMG_0567.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/espagne/IMG_0683.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/espagne/IMG_0793.JPG>;
+   schema:image <https://rdfa.info/assets/images/kevin/espagne/IMG_0796.JPG>;
+   schema:location "Esposende, Portugal"@en;
+   schema:location "Barcelos, Portugal"@en;
+   schema:location "France EURO 2016"@en;
+   schema:location "London"@en;
+   schema:location "Cardiff"@en;
+   schema:location "Suisse"@en;
+   schema:location "Vienne"@en;
+   schema:location "Allemagne"@en;
+   schema:location "Canada"@en;
+   schema:location "USA"@en;
+   schema:location "Spain"@en;
+   schema:photo <https://rdfa.info/assets/images/kevin/uk/index.jpeg>;
+   schema:photo <https://rdfa.info/assets/images/kevin/uk/index2.jpeg>;
+   schema:photo <https://rdfa.info/assets/images/kevin/suisse/index.jpeg>;
+   schema:photo <https://rdfa.info/assets/images/kevin/autriche/index.jpeg>;
+   schema:photo <https://rdfa.info/assets/images/kevin/allemagne/index.jpeg> .
+<http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
+   rdf:type schema:JobPosting;
+   rdf:type <https://www.wikidata.org/entityQ170584>;
+   rdf:type <https://www.wikidata.org/entityQ852835>;
+   rdf:type <https://www.wikidata.org/entityQ618779>;
+   <https://www.wikidata.org/entity/Q11563> "1"@en;
+   <https://www.wikidata.org/entity/Q11563> "50"@en;
+   <https://www.wikidata.org/entity/Q11563> "0"@en;
+   schema:experienceRequirements "Years of Experience"@en;
+   <https://www.wikidata.org/entity/Q82799> "Projects Done"@en;
+   <https://www.wikidata.org/entity/Q82799> "Happy Clients"@en;
+   <https://www.wikidata.org/entity/Q82799> "Awards Won"@en .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
