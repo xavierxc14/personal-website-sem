@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://personal-website-sem.herokuapp.com/index.html/>
+<http://personal-website-sem.herokuapp.com/index.html>
    og:url "http://personal-website-sem.herokuapp.com/index.html"@en;
    og:type "website"@en;
    og:title "Project Semantic Web"@en;
@@ -34,17 +34,17 @@
    rdf:type schema:Organization;
    schema:url <https://www.univ-st-etienne.fr/fr/index.html>;
    schema:legalName "UJM Saint-Etienne "@en;
-   schema:adress """10 Rue Trefilerie
+   schema:address """10 Rue Trefilerie
                     Saint-Etienne France"""@en .
 <http://www.mines-stetienne.fr/>
    rdf:type schema:Organization;
    schema:url <http://www.mines-stetienne.fr/>;
    schema:legalName "Ecole des mines de Saint-Etienne"@en;
-   schema:adress """158 Cours Fauriel
+   schema:address """158 Cours Fauriel
                     Saint-Etienne France"""@en .
 <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
    rdf:type schema:Person;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/index.htmlkevin/kevincv.html>;
    foaf:nick "KA"@en;
    schema:name "Kevin ABRIAL"@en;
    schema:email <mailto:kevin.abrial@etu.univ-st-etienne.fr> .

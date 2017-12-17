@@ -4,7 +4,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>
+<http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html/>
    og:url "http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html"@en;
    og:type "website"@en;
    og:title "Kevin ABRIAL"@en;
@@ -19,20 +19,23 @@
    rdf:type schema:Person;
    schema:url <https://rdfa.info/index.html>;
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
+   schema:url <http://personal-website-sem.herokuapp.com/kevin/languages.html>;
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
 <https://www.groupe-casino.fr/fr/>
    rdf:type schema:Organization;
-   schema:Date "April 1, 2017 - August 31, 2017"@en;
-   schema:JobPosting "Analyste Développeur"@en;
+   rdf:type schema:Date;
+   rdf:type schema:JobPosting;
+   schema:startDate "April 1, 2017 - August 31, 2017"@en;
+   schema:title <https://www.groupe-casino.fr/fr/>;
    schema:legalName "Groupe Casino"@en;
    schema:location "Saint-Etienne, France"@en;
    schema:url <https://www.groupe-casino.fr/fr/> .
 <http://www.ville-firminy.fr/>
    rdf:type schema:Organization;
-   schema:Date "July 1, 2013 - July 5, 2013"@en;
+   rdf:type schema:Date;
+   schema:startDate "July 1, 2013 - July 5, 2013"@en;
    schema:location "Mairie Firminy, France"@en;
    schema:url <http://www.ville-firminy.fr/> .
 <https://www.wikidata.org/entity/Q12948581>
