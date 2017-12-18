@@ -4,14 +4,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
-  <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
-	<meta name="author" content="http://trendytheme.net/">
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@xavierxc14" />
+	<meta name="twitter:creator" content="@xavierxc14" />
+
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Xavier NAUNAY" />
+	<meta property="og:description"        content="CV page for Xavier NAUNAY" />
+	<meta property="og:url"              	 content="http://personal-website-sem.herokuapp.com/xavier/cv.html" />
+	<meta property="og:image"              content="http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg" />
+	<meta property="og:site_name"          content="heroku.com" />
+
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+  	"@type": "Person",
+  	"name": "Xavier NAUNAY",
+  	"jobTitle": "Software Developer",
+  	"telephone": "+33634648668",
+  	"url": "http://personal-website-sem.herokuapp.com/xavier/cv.html",
+		"image": "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"
+	}
+	</script>
 
 	<title>Xavier NAUNAY</title>
 
   <!-- Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
 	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
@@ -76,7 +96,8 @@
 	</header><!-- End Navigation -->
 	<span id="home"></span>
 
-
+	<section vocab="http://schema.org/" typeof="Person" resource="https://personal-website-sem.herokuapp.com/xavier/technologies.html">
+		<link property="sameAs" href="https://personal-website-sem.herokuapp.com/xavier/cv.html"/>
     <!-- Skills Section -->
     <section id="skills" class="skills-section section-padding">
       <div class="container">
@@ -191,6 +212,8 @@
       </div><!-- /.container -->
     </section><!-- End Skills Section -->
 
+	</section>
+
 
 	<!-- Footer Section -->
     <footer class="footer-wrapper">
@@ -223,9 +246,7 @@
   <script src="../assets/js/jquery.easypiechart.js"></script>
   <script src="../assets/js/jquery.shuffle.min.js"></script>
   <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script src="../assets/js/jquery.fitvids.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="../assets/js/scripts.js"></script>
 </body>
 </html>
