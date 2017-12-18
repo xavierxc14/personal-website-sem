@@ -4,14 +4,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
-  <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
-	<meta name="author" content="http://trendytheme.net/">
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@xavierxc14" />
+	<meta name="twitter:creator" content="@xavierxc14" />
+
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Xavier NAUNAY" />
+	<meta property="og:description"        content="CV page for Xavier NAUNAY" />
+	<meta property="og:url"              	 content="http://personal-website-sem.herokuapp.com/xavier/cv.html" />
+	<meta property="og:image"              content="http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg" />
+	<meta property="og:site_name"          content="heroku.com" />
+
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+  	"@type": "Person",
+  	"name": "Xavier NAUNAY",
+  	"jobTitle": "Software Developer",
+  	"telephone": "+33634648668",
+  	"url": "http://personal-website-sem.herokuapp.com/xavier/cv.html",
+		"image": "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"
+	}
+</script>
 
 	<title>Xavier NAUNAY</title>
 
   <!-- Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
 	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
@@ -77,6 +97,7 @@
 	<span id="home"></span>
 
 
+<section vocab="http://schema.org/" typeof="Person" resource="https://personal-website-sem.herokuapp.com/xavier/cv.html">
     <!-- About Section -->
     <section id="about" class="about-section section-padding">
       <div class="container">
@@ -87,15 +108,17 @@
           <div class="col-md-4 col-md-push-8">
             <div class="biography">
               <div class="myphoto">
-                <img src="../assets/images/xavier/profile.jpg" alt="">
+                <img src="../assets/images/xavier/profile.jpg" alt="xavier-photo">
               </div>
               <ul>
-                <li><strong>Name:</strong> Xavier NAUNAY</li>
-                <li><strong>Date of birth:</strong> 23 October 1993</li>
-                <li><strong>Address:</strong> 47 Rue Désiré Claude, Saint-Étienne, France</li>
-                <li><strong>Nationality:</strong> Ecuadorian</li>
-                <li><strong>Phone:</strong> (+33) 0634 648668</li>
-                <li><strong>Email:</strong> xavierxc14@gmail.com</li>
+                <li><strong>Name:</strong><span property="name"> Xavier NAUNAY</span></li>
+								<meta property="familyName" content="Naunay"/>
+								<meta property="givenName" content="Xavier"/>
+                <li><strong>Date of birth:</strong><span property="birthDate"> 23 October 1993</span></li>
+                <li><strong>Address:</strong><span property="address"> 47 Rue Désiré Claude, Saint-Étienne, France</span></li>
+                <li><strong>Nationality:</strong><span property="nationality"> Ecuadorian</span></li>
+                <li><strong>Phone:</strong><span property="telephone"> (+33) 0634 648668</span></li>
+                <li><strong>Email:</strong><span property="email"> xavierxc14@gmail.com</span></li>
               </ul>
             </div>
           </div> <!-- col-md-4 -->
@@ -108,18 +131,21 @@
 
             <div class="short-info wow fadeInUp">
               <h3>What I Do ?</h3>
-              <p>I am a Sofware developer and a geek, passionate about High Quality Software delivery and DevOps. I also like to share my knowledge and give talks.</p>
+              <p property="hasOccupation" typeOf="Occupation">I am a Sofware developer and a geek, passionate about High Quality Software delivery and DevOps. I also like to share my knowledge and give talks.
+								<meta property="occupationalCategory" content="15-1132.00"/>
+								<meta property="name" content="Software Developer"/>
+							</p>
 
               <ul class="list-check">
-                <li>Software Development</li>
-                <li>Product Design</li>
-                <li>Microservices</li>
-                <li>Continous Integration</li>
-                <li>Continous Delivery</li>
-                <li>DevOps</li>
-								<li>Semantic Web</li>
-								<li>Information Retrieval</li>
-								<li>Data modeling</li>
+                <li property="skills">Software Development</li>
+                <li property="skills">Product Design</li>
+                <li property="skills">Microservices</li>
+                <li property="skills">Continous Integration</li>
+                <li property="skills">Continous Delivery</li>
+                <li property="skills">DevOps</li>
+								<li property="skills">Semantic Web</li>
+								<li property="skills">Information Retrieval</li>
+								<li property="skills">Data modeling</li>
               </ul>
             </div>
 
@@ -142,147 +168,70 @@
                     </div>
                     <div class="resume">
                         <ul class="timeline">
-                            <li>
+                            <li property="alumniOf" typeOf="OrganizationRole">
                                 <div class="posted-date">
+																	<meta property="startDate" content="2017"/>
+																	<meta property="endDate" content="2018"/>
                                     <span class="month">2017-2018</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInUp" property="alumniOf" typeOf="EducationalOrganization">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Master degree</h3>
-                                            <span>Master of Science (MS) Data Science and Connected Systems, Jean Monnet University, Saint-Étienne, France</span>
+                                            <span property="name" content="Jean Monnet University">Master of Science (MS) Data Science and Connected Systems, Jean Monnet University, Saint-Étienne, France</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>Find the details at: <a href="http://depinfo.univ-st-etienne.fr/Master/dsc.php">Jean Monnet University</a></p>
+																					<meta property="sameAs" content="https://en.wikipedia.org/wiki/Jean_Monnet_University"/>
+                                            <p>Find the details at: <a property="url" href="http://depinfo.univ-st-etienne.fr/Master/dsc.php">Jean Monnet University</a></p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
                             </li>
 
-                            <li class="timeline-inverted">
+                            <li class="timeline-inverted" property="alumniOf" typeOf="OrganizationRole">
                                 <div class="posted-date">
+																	<meta property="startDate" content="2011"/>
+																	<meta property="endDate" content="2017"/>
                                     <span class="month">2011-2017</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInUp" property="alumniOf" typeOf="EducationalOrganization">
                                     <div class="timeline-content">
 																			<div class="timeline-heading">
 																					<h3>Engineering degree</h3>
-																					<span>Engineering in Information Systems, National Polytechnic School, Quito, Ecuador</span>
+																					<span property="name" content="National Polytechnic School">Engineering in Information Systems, National Polytechnic School, Quito, Ecuador</span>
 																			</div><!-- /timeline-heading -->
 
 																			<div class="timeline-body">
-																					<p>Find the details at: <a href="http://fis.epn.edu.ec/index.php?option=com_content&view=article&id=78&Itemid=253">National Polytechnic School</a></p>
+																				<meta property="sameAs" content="https://en.wikipedia.org/wiki/National_Polytechnic_School_(Ecuador)"/>
+																					<p>Find the details at: <a property="url" href="http://fis.epn.edu.ec/index.php?option=com_content&view=article&id=78&Itemid=253">National Polytechnic School</a></p>
 																			</div><!-- /timeline-body -->
 																	</div> <!-- /timeline-content -->
 															</div><!-- /timeline-panel -->
                             </li>
 
-                            <li>
+                            <li property="alumniOf" typeOf="OrganizationRole">
                                 <div class="posted-date">
+																	<meta property="startDate" content="2005"/>
+																	<meta property="endDate" content="2011"/>
                                   <span class="month">2005-2011</span>
                                 </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
+                                <div class="timeline-panel wow fadeInUp" property="alumniOf" typeOf="HighSchool">
                                     <div class="timeline-content">
                                         <div class="timeline-heading">
                                             <h3>Secondary school certificate</h3>
-                                            <span>Maths and Physics, San Gabriel High School, Ecuador</span>
+                                            <span property="name" content="San Gabriel High School">Maths and Physics, San Gabriel High School, Ecuador</span>
                                         </div><!-- /timeline-heading -->
 
                                         <div class="timeline-body">
-                                            <p>Find the details at: <a href="http://www.csgabriel.edu.ec/index.php/2014-05-02-17-50-43/2014-05-02-21-52-28/2014-05-02-21-55-32">San Gabriel High School</a></p>
+																					<meta property="sameAs" content="https://en.wikipedia.org/wiki/St._Gabriel_College,_Quito"/>
+                                            <p>Find the details at: <a property="url" href="http://www.csgabriel.edu.ec/index.php/2014-05-02-17-50-43/2014-05-02-21-52-28/2014-05-02-21-55-32">San Gabriel High School</a></p>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                        <h3>Experience</h3>
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">2016-2017</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Consultant Developer</h3>
-                                            <span>ThoughtWorks, Quito, Ecuador</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <a href="https://www.thoughtworks.com/locations/quito">ThoughtWorks Quito</a>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2016-2016</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Research Assistant</h3>
-                                            <span>National Polytechnic School, Quito, Ecuador</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <a href="https://www.epn.edu.ec">National Polytechnic School</a>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-														<li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">2015-2015</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Consultant Developer</h3>
-                                            <span>Clear Minds, Quito, Ecuador</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <a href="http://www.clearminds-it.com/">Clear Minds</a>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
-
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2012-2015</span>
-                                </div><!-- /posted-date -->
-
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Developer</h3>
-                                            <span>AtikaSoft, Quito, Ecuador</span>
-                                        </div><!-- /timeline-heading -->
-
-                                        <div class="timeline-body">
-                                            <a href="http://atikasoft.com">AtikaSoft</a>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
                             </li>
                         </ul>
                     </div>
@@ -290,6 +239,7 @@
             </div><!-- /row -->
         </div><!-- /.container -->
     </section><!-- End Resume Section -->
+	</section>
 
 
     <!-- Footer Section -->
