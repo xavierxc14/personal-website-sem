@@ -102,7 +102,7 @@ Ce projet fut très très intéressant, ce que nous avons appris pourrait être 
 
 
 Kevin ABRIAL : 
-Pour ma part, j'ai été très intéressant par cette matière, je suis très passioné par le Semantic Web, j'ai pu découvrir un nouveau domaine dans le Web, ce qui rend encore plus intéressant car cela englobe le domaine du Web, ce qui concorde avec mon objectif personnel dans le domaine du Web. Grâce à cette apprentissage, je peux dés à présent faire du référencement de site web et je peux améliorer n'importe quel site web sur Internet, grâce a l'apprentissage du cours avec les techniques de Semantic Web.
+Pour ma part, j'ai été très intéressé par cette matière, je suis très passioné par le Semantic Web, j'ai pu découvrir un nouveau domaine dans le Web, ce qui rend encore plus intéressant car cela englobe le domaine du Web, ce qui concorde avec mon objectif personnel dans le domaine du Web. Grâce à cette apprentissage, je peux dés à présent faire du référencement de site web et je peux améliorer n'importe quel site web sur Internet, grâce a l'apprentissage du cours avec les techniques de Semantic Web.
 Cepedant, mon sujet de projet n'hésite pas l'utilisation de SPARQL, que j'ai pu utiliser uniquement lors des séances de travaux prartiques prévu à cette effet.
 Pour finir, je tiens a remercier particulierement, Monsieur Maxime LEFRANCOIS pour son aide a toutes mes questions que j'ai pu lui poser et pour son enseignement de la matière Semantic Web.
 
