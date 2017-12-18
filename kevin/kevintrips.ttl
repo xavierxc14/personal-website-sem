@@ -26,16 +26,8 @@
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
 <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html>
    rdf:type schema:ImageGallery;
+   rdf:type schema:Place;
    schema:description "Trips"@en;
-   schema:name "Portugal"@en;
-   schema:name "France EURO 2016"@en;
-   schema:name "Espagne"@en;
-   schema:name "UK"@en;
-   schema:name "USA"@en;
-   schema:name "Canada"@en;
-   schema:name "Allemagne"@en;
-   schema:name "Suisse"@en;
-   schema:name "Autriche"@en;
    schema:identifier <https://rdfa.info/assets/images/kevin/portugal/DSC04726.JPG>;
    schema:identifier <https://rdfa.info/assets/images/kevin/portugal/DSC04727.JPG>;
    schema:identifier <https://rdfa.info/assets/images/kevin/portugal/DSC04728.JPG>;
@@ -124,137 +116,137 @@
    schema:image <https://rdfa.info/assets/images/kevin/espagne/IMG_0796.JPG>;
    schema:identifer <https://rdfa.info/assets/images/kevin/france/IMG_1400.PNG> .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/DSC04726.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/DSC04727.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/DSC04728.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/DSC04730.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/DSC04810.JPG>
-   rdf:type schema:Place;
-   schema:location "Barcelos, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Barcelos, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/IMG_1433.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/portugal/IMG_1434.JPG>
-   rdf:type schema:Place;
-   schema:location "Esposende, Portugal"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Esposende, Portugal"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/france/IMG_1204.JPG>
-   rdf:type schema:Place;
-   schema:location "France EURO 2016"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "France EURO 2016"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/france/IMG_1208.JPG>
-   rdf:type schema:Place;
-   schema:location "France EURO 2016"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "France EURO 2016"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/france/IMG_1209.JPG>
-   rdf:type schema:Place;
-   schema:location "France EURO 2016"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "France EURO 2016"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/france/IMG_1210.JPG>
-   rdf:type schema:Place;
-   schema:location "France EURO 2016"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "France EURO 2016"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/france/IMG_1400.PNG>
-   rdf:type schema:Place;
-   schema:location "France EURO 2016"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "France EURO 2016"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/uk/index.jpeg>
-   rdf:type schema:Place;
-   schema:location "London"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "London"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/uk/index2.jpeg>
-   rdf:type schema:Place;
-   schema:location "Cardiff"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Cardiff"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/suisse/index.jpeg>
-   rdf:type schema:Place;
-   schema:location "Suisse"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Suisse"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/autriche/index.jpeg>
-   rdf:type schema:Place;
-   schema:location "Vienne"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Vienne"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/allemagne/index.jpeg>
-   rdf:type schema:Place;
-   schema:location "Allemagne"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Allemagne"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05643.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05752.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05776.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05800.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05818.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05889.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05900.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05912.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05941.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC05973.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/canada/DSC06060.JPG>
-   rdf:type schema:Place;
-   schema:location "Canada"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Canada"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05444.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05472.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05476.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05532.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05552.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05560.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05561.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05562.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05564.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05611.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05612.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/usa/DSC05616.JPG>
-   rdf:type schema:Place;
-   schema:location "USA"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "USA"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/espagne/IMG_0567.JPG>
-   rdf:type schema:Place;
-   schema:location "Spain"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Spain"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/espagne/IMG_0683.JPG>
-   rdf:type schema:Place;
-   schema:location "Spain"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Spain"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/espagne/IMG_0793.JPG>
-   rdf:type schema:Place;
-   schema:location "Spain"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Spain"@en .
 <http://personal-website-sem.herokuapp.com/assets/images/kevin/espagne/IMG_0796.JPG>
-   rdf:type schema:Place;
-   schema:location "Spain"@en .
+   rdf:type schema:ImageObject;
+   schema:regionsAllowed "Spain"@en .
 <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>
    rdf:type schema:JobPosting;
    rdf:type <https://www.wikidata.org/entityQ170584>;
