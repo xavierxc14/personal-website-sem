@@ -1,8 +1,8 @@
 @prefix og: <http://ogp.me/ns#> .
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
 @prefix schema: <http://schema.org/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html/>
    og:url "http://personal-website-sem.herokuapp.com/kevin/kevintrips.html"@en;
@@ -12,18 +12,24 @@
    og:image "http://personal-website-sem.herokuapp.com/assets/images/kevin/kevin.jpg"@en;
    og:site_name "heroku.com"@en;
    rdfa:usesVocabulary schema:;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
    rdfa:usesVocabulary <https://www.wikidata.org/entity>;
-   schema:knows <http://personal-website-sem.herokuapp.com/index.html>;
+   foaf:knows <http://personal-website-sem.herokuapp.com/index.html>;
+   <https://www.wikidata.org/entity/Q655288> <http://personal-website-sem.herokuapp.com/index.html>;
+   schema:Q655288 <http://personal-website-sem.herokuapp.com/index.html>;
    <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
 <http://personal-website-sem.herokuapp.com/index.html>
    rdf:type schema:CreativeWork;
    rdf:type schema:Person;
-   schema:url <https://rdfa.info/index.html>;
+   rdf:type <https://www.wikidata.org/entity/Q205961>;
+   rdf:type <https://www.wikidata.org/entity/Q950511>;
+   rdf:type schema:ImageGallery;
+   schema:url <http://personal-website-sem.herokuapp.com/index.html>;
    schema:url <http://personal-website-sem.herokuapp.com/kevin/kevincv.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
-   schema:url <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
+   <https://www.wikidata.org/entity/Q42253> <http://personal-website-sem.herokuapp.com/kevin/kevinlanguages.html>;
+   <https://www.wikidata.org/entity/Q42253> <http://personal-website-sem.herokuapp.com/kevin/kevintechnologies.html>;
+   <https://www.wikidata.org/entity/Q42253> <http://personal-website-sem.herokuapp.com/kevin/kevinexperience.html>;
+   schema:Q42253 <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html> .
 <http://personal-website-sem.herokuapp.com/kevin/kevintrips.html>
    rdf:type schema:ImageGallery;
    rdf:type schema:Place;
