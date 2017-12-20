@@ -27,7 +27,7 @@ Trois personnes différentes ont participé à l'élaboration de ce site Web. Af
 
 Chaque membre du groupe s'est occupé de son propre référencement, à l'aide des techniques de Web Semantic apprises lors des cours et durant les séances de travaux pratiques.
 
-Le but était que chacun implémente son modèle de données fonction de son CV et des informations additionnelles disponibles sur les pages complémentaires du profil (expériences, technologies etc.).
+Le but était que chacun implémente son modèle de données en fonction de son CV et des informations additionnelles disponibles sur les pages complémentaires du profil (expériences, technologies etc.).
 
 ## Manipulation du Turtle et de RDFa avec Apache .htaccess
 
