@@ -105,23 +105,38 @@
 
         <ul class="list-inline" id="filter">
             <li><a class="active" data-group="all">All</a></li>
-            <li><a data-group="india">India</a></li>
-            <li><a data-group="france">France</a></li>
+            <li vocab="http://schema.org/" typeOf="TravelAction">
+							<meta property="agent" href="https://personal-website-sem.herokuapp.com/xavier/trips.html"/>
+							<a data-group="india" property="toLocation" typeOf="Place"  resource="#india">
+								<meta property="name" content="India"/>
+								<meta property="sameAs" content="https://www.wikidata.org/wiki/Q668"/>
+								India
+							</a>
+						</li>
+            <li vocab="http://schema.org/" typeOf="TravelAction">
+							<meta property="agent" href="https://personal-website-sem.herokuapp.com/xavier/trips.html"/>
+							<a data-group="france" property="toLocation" typeOf="Place"  resource="#france">
+								<meta property="name" content="France"/>
+								<meta property="sameAs" content="https://www.wikidata.org/wiki/Q142"/>
+								France
+							</a>
+						</li>
         </ul>
 
         <div class="row">
           <div id="grid">
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "india"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/india1.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/india1.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/india1.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Ganesh Chaturthi, Pune</h3>
+                    <h3 property="name">Ganesh Chaturthi, Pune</h3>
+										<meta property="contentLocation" href="#india"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -130,105 +145,112 @@
 
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "india"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/india2.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/india2.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/india2.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Aga Khan Palace, Pune</h3>
+                    <h3 property="name">Aga Khan Palace, Pune</h3>
+										<meta property="contentLocation" href="#india"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "india"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/india3.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/india3.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/india3.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Ganesh Chaturthi, Pune</h3>
+                    <h3 property="name">Ganesh Chaturthi, Pune</h3>
+										<meta property="contentLocation" href="#india"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "india"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/india4.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/india4.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/india4.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Gateway of India, Bombay</h3>
+                    <h3 property="name">Gateway of India, Bombay</h3>
+										<meta property="contentLocation" href="#india"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "france"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/france1.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/france1.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/france1.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Reims Town Hall, Reims</h3>
+                    <h3 property="name">Reims Town Hall, Reims</h3>
+										<meta property="contentLocation" href="#france"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "france"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/france2.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/france2.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/france2.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Festival of Lights, Lyon</h3>
+                    <h3 property="name">Festival of Lights, Lyon</h3>
+										<meta property="contentLocation" href="#france"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "france"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/france3.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/france3.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/france3.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Raymond Barre Bridge, Lyon</h3>
+                    <h3 property="name">Raymond Barre Bridge, Lyon</h3>
+										<meta property="contentLocation" href="#france"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
             <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "france"]'>
               <div class="portfolio-bg">
-                <div class="portfolio">
+                <div class="portfolio" vocab="http://schema.org/" typeof="ImageObject">
                   <div class="tt-overlay"></div>
                   <div class="links">
                     <a class="image-link" href="../assets/images/xavier/trips/france4.jpg"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>
                   </div><!-- /.links -->
-                  <img src="../assets/images/xavier/trips/france4.jpg" alt="image">
+                  <img src="../assets/images/xavier/trips/france4.jpg" alt="image" property="contentUrl">
                   <div class="portfolio-info">
-                    <h3>Lyon</h3>
+                    <h3 property="name">Lyon</h3>
+										<meta property="contentLocation" href="#france"/>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
