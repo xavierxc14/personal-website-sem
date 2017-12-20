@@ -1,0 +1,37 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+
+<https://rdfa.info/play/>
+   og:url "http://personal-website-sem.herokuapp.com/alexis/alexisexperience.html"@en;
+   og:type "website"@en;
+   og:title "Alexis BARTHELEMY"@en;
+   og:description "Alexis Barthelemy Collaborative Website"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/alexis/alexis_personal.jpg"@en;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
+   rdfa:usesVocabulary <http://dbpedia.org/ontology/>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q251>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q2005>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q59>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q2407>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q2053>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q484275>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q170658>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q2920921>;
+   <http://dbpedia.org/ontology/skills> <http://dbpedia.org/ontology/autonomy>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q626225>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q3064143> .
+<https://www.wikidata.org/entity/Q251>
+   <https://www.wikidata.org/entity/P856> <https://www.oracle.com/java/>;
+   <https://www.wikidata.org/entity/P179> "Java"@en .
+<https://www.wikidata.org/entity/Q2005>
+   <https://www.wikidata.org/entity/P856> <https://developer.mozilla.org/en-US/docs/Web/JavaScript>;
+   <https://www.wikidata.org/entity/P179> "JavaScript"@en .
+<https://www.wikidata.org/entity/Q59>
+   <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
+   <https://www.wikidata.org/entity/P179> "PHP"@en .
+<https://www.wikidata.org/entity/Q2407>
+   <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
+   <https://www.wikidata.org/entity/P179> "C++"@en .
+<https://www.wikidata.org/entity/Q2053>
+   <https://www.wikidata.org/entity/P856> <https://isocpp.org/about>;
+   <https://www.wikidata.org/entity/P179> "HTML5"@en .

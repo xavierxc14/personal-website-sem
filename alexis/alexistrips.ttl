@@ -1,0 +1,45 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://rdfa.info/play/>
+   og:url "http://personal-website-sem.herokuapp.com/alexis/alexistrips.html"@en;
+   og:type "website"@en;
+   og:title "Alexis BARTHELEMY"@en;
+   og:description "Alexis Barthelemy Collaborative Website"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/alexis/alexis_personal.jpg"@en;
+   rdfa:usesVocabulary schema: .
+<https://rdfa.info/play/#Scotland>
+   rdf:type schema:TravelAction;
+   rdf:type schema:Place;
+   rdf:type schema:ImageObject;
+   schema:toLocation <https://rdfa.info/play/#Scotland>;
+   schema:name "Scotland"@en;
+   schema:name "Aberdeen, Scotland"@en;
+   schema:name "Slains Castle, Scotland"@en;
+   schema:name "Edinburgh, Scotland"@en;
+   schema:sameAs "https://www.wikidata.org/wiki/Q22"@en;
+   schema:agent <https://personal-website-sem.herokuapp.com/alexis/alexistrips.html>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Scotland/20140920_114102.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Scotland/IMG_20150323_180415~2.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Scotland/IMG_20150503_151600.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Scotland/IMG_20150504_123033.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Scotland/IMG_20150504_133734.jpg>;
+   schema:contentLocation <https://rdfa.info/play/#Scotland> .
+<https://rdfa.info/play/#France>
+   rdf:type schema:Place;
+   schema:fromLocation "France"@en .
+<https://rdfa.info/play/#Spain>
+   rdf:type schema:TravelAction;
+   rdf:type schema:Place;
+   rdf:type schema:ImageObject;
+   schema:toLocation <https://rdfa.info/play/#Spain>;
+   schema:name "Spain"@en;
+   schema:name "San Vincente de la barquera, Spain"@en;
+   schema:sameAs "https://www.wikidata.org/wiki/Q29"@en;
+   schema:agent <https://personal-website-sem.herokuapp.com/alexis/alexistrips.html>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Spain/20140827_204402.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Spain/20140827_204750.jpg>;
+   schema:contentUrl <https://rdfa.info/assets/images/alexis/Spain/DSCN1351.jpg>;
+   schema:contentLocation <https://rdfa.info/play/#Spain> .

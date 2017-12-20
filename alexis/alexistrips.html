@@ -1,17 +1,35 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
-  <meta name="keywords" content="onepage, resume, CV HTML template, personal Vcard, html resume, free resume template, free HTML template, free bootstrap template, personal portfolio, free html portfolio">
-	<meta name="author" content="http://trendytheme.net/">
 
-	<title>IAMX – Responsive Personal Portfolio vCard Template</title>
+
+
+	<!-- debut metadonnees Facebook-->
+	<meta property="og:url"              	 content="http://personal-website-sem.herokuapp.com/alexis/alexistrips.html" />
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Alexis BARTHELEMY" />
+	<meta property="og:description"        content="Alexis Barthelemy Collaborative Website" />
+	<meta property="og:image"              content="http://personal-website-sem.herokuapp.com/assets/images/alexis/alexis_personal.jpg" />
+	<!-- fin metadonnees Facebook-->
+
+	<!-- debut metadonnees Google-->
+	<script type="application/ld+json">
+{
+  "http://schema.org/name": "Project Master 2 Donnees Systemes Connectees: Semantic Web",
+  "http://schema.org/location": "Saint-Etienne",
+	"http://schema.org/familyName": "Alexis BARTHELEMY",
+  "http://schema.org/url": { "@id": "http://personal-website-sem.herokuapp.com/alexis/alexistrips.html" },
+  "http://schema.org/image": { "@id": "http://personal-website-sem.herokuapp.com/assets/images/alexis/alexis_personal.jpg" }
+}
+</script>
+
+	<title>Alexis BARTHELEMY</title>
 
   <!-- Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
 	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<!-- Font Awesome CSS -->
@@ -42,6 +60,7 @@
 
 <body>
 	<!-- Preloader -->
+	<!-- Preloader -->
 	<div id="tt-preloader">
 		<div id="pre-status">
 			<div class="preload-placeholder"></div>
@@ -59,145 +78,207 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="../assets/images/logo.png" alt=""></a>
+					<a class="navbar-brand" href="../index.html">Home</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="cv.html">CV</a></li>
-						<li><a href="languages.html">Programming Languages</a></li>
-						<li><a href="technologies.html">Technologies</a></li>
-						<li><a href="experience.html">Experience</a></li>
-						<li><a href="trips.html">Trips</a></li>
+						<li><a href="alexiscv.html">CV</a></li>
+						<li><a href="alexislanguages.html">Programming Languages</a></li>
+						<li><a href="alexistechnologies.html">Technologies</a></li>
+						<li><a href="alexisexperience.html">Experience</a></li>
+						<li><a href="alexistrips.html">Trips</a></li>
 					</ul>
 				</div>
 			</div><!-- .container -->
 		</nav>
 	</header><!-- End Navigation -->
+	<span id="home"></span>
+
+		<!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Trips</h2>
+
+        <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li vocab="http://schema.org/" typeOf="TravelAction" resource="#Scotland">
+							<a data-group="Scotland" property="toLocation" typeOf="Place"  resource="#Scotland">
+								<meta property="name" content="Scotland"/>
+								<meta property="sameAs" content="https://www.wikidata.org/wiki/Q22"/>
+								<meta property="agent" href="https://personal-website-sem.herokuapp.com/alexis/alexistrips.html"/>
+								<meta property="fromLocation" content="France" typeOf="Place" resource="#France">
+								Scotland
+							</a>
+						</li>
+						<li vocab="http://schema.org/" typeOf="TravelAction" resource="#Spain">
+							<a data-group="Spain" property="toLocation" typeOf="Place" resource="#Spain">
+								<meta property="name" content="Spain"/>
+								<meta property="sameAs" content="https://www.wikidata.org/wiki/Q29"/>
+								<meta property="agent" href="https://personal-website-sem.herokuapp.com/alexis/alexistrips.html"/>
+								<meta property="fromLocation" content="France" typeOf="Place" resource="#France">
+								Spain
+							</a>
+						</li>
+        </ul>
+
+        <div class="row">
+          <div id="grid">
+
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Spain"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Spain" typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Spain/20140827_204402.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Spain/20140827_204402.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">San Vincente de la barquera, Spain</h3>
+										<meta property="contentLocation" href="#Spain"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section section-padding">
-        <div class="container">
-            <h2 class="section-title wow fadeInUp">Resume</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                        <h3>Education</h3>
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
-                            <li>
-                                <div class="posted-date">
-                                    <span class="month">2007-2011</span>
-                                </div><!-- /posted-date -->
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Spain"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Spain"typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Spain/20140827_204750.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Spain/20140827_204750.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">San Vincente de la barquera, Spain</h3>
+										<meta property="contentLocation" href="#Spain"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Bachelor degree certificate</h3>
-                                            <span>BA(Hons) in UI Engineering, Arts University, Pabna, USA</span>
-                                        </div><!-- /timeline-heading -->
 
-                                        <div class="timeline-body">
-                                            <p>I have completed UI Engineering degree from ABC University, Boston, USA at feel the charm of existence in this spot, which was creat.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Spain"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Spain"typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Spain/DSCN1351.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Spain/DSCN1351.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">San Vincente de la barquera, Spain</h3>
+										<meta property="contentLocation" href="#Spain"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                    <span class="month">2004-2006</span>
-                                </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Higher Secondary certificate</h3>
-                                            <span>Typography Arts, FA College, New York, USA</span>
-                                        </div><!-- /timeline-heading -->
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Scotland"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Scotland"typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Scotland/20140920_114102.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Scotland/20140920_114102.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">Aberdeen, Scotland</h3>
+										<meta property="contentLocation" href="#Scotland"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                                        <div class="timeline-body">
-                                            <p>From this college of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
 
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2000-2003</span>
-                                </div><!-- /posted-date -->
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Scotland"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Scotland"typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Scotland/IMG_20150323_180415~2.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Scotland/IMG_20150323_180415~2.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">Slains Castle, Scotland</h3>
+										<meta property="contentLocation" href="#Scotland"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Secondary school certificate</h3>
-                                            <span>Creative Arts, Julius Jr. school, USA</span>
-                                        </div><!-- /timeline-heading -->
 
-                                        <div class="timeline-body">
-                                            <p>I was awesome at arts, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Scotland"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Scotland" typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="link">
+                    <a class="image-link" href="../assets/images/alexis/Scotland/IMG_20150503_151600.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Scotland/IMG_20150503_151600.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">Aberdeen, Scotland</h3>
+										<meta property="contentLocation" href="#Scotland"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="resume-title">
-                        <h3>Experience</h3>
-                    </div>
-                    <div class="resume">
-                        <ul class="timeline">
-                            <li class="timeline-inverted">
-                                <div class="posted-date">
-                                  <span class="month">2011-2013</span>
-                                </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Junior ui designer</h3>
-                                            <span>XYZ Design Home, One Street, Boston</span>
-                                        </div><!-- /timeline-heading -->
 
-                                        <div class="timeline-body">
-                                            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div> <!-- /timeline-panel -->
-                            </li>
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Scotland"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Scotland" typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Scotland/IMG_20150504_123033.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Scotland/IMG_20150504_123033.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">Edinburgh, Scotland</h3>
+										<meta property="contentLocation" href="#Scotland"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                            <li>
-                                <div class="posted-date">
-                                  <span class="month">2013-2015</span>
-                                </div><!-- /posted-date -->
 
-                                <div class="timeline-panel wow fadeInUp">
-                                    <div class="timeline-content">
-                                        <div class="timeline-heading">
-                                            <h3>Lead UX Consultant</h3>
-                                            <span>Lucky8 Designing Firm, California</span>
-                                        </div><!-- /timeline-heading -->
+						<div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "Scotland"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio" vocab="http://schema.org/" resource="#Scotland" typeof="ImageObject">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="../assets/images/alexis/Scotland/IMG_20150504_133734.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>
+                  </div><!-- /.links -->
+                  <img src="../assets/images/alexis/Scotland/IMG_20150504_133734.jpg" alt="image" property="contentUrl">
+                  <div class="portfolio-info">
+                    <h3 property="name">Edinburgh, Scotland</h3>
+										<meta property="contentLocation" href="#Scotland"/>
+                  </div><!-- /.portfolio-info -->
+                </div><!-- /.portfolio -->
+              </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
 
-                                        <div class="timeline-body">
-                                            <p>Completely provide access to seamless manufactured products before functionalized synergy. Progressively redefine competitive.</p>
-                                        </div><!-- /timeline-body -->
-                                    </div> <!-- /timeline-content -->
-                                </div><!-- /timeline-panel -->
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- /row -->
-        </div><!-- /.container -->
-    </section><!-- End Resume Section -->
+
+          </div><!-- /#grid -->
+
+        </div><!-- /.row -->
+
+      </div><!-- /.container -->
+
+    </section><!-- End Works Section -->
+
+	</section>
 
 
 	<!-- Footer Section -->
@@ -231,9 +312,7 @@
   <script src="../assets/js/jquery.easypiechart.js"></script>
   <script src="../assets/js/jquery.shuffle.min.js"></script>
   <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script src="../assets/js/jquery.fitvids.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="../assets/js/scripts.js"></script>
 </body>
 </html>

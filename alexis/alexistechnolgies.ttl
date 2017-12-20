@@ -1,0 +1,45 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+
+<https://rdfa.info/play/>
+   og:url "http://personal-website-sem.herokuapp.com/alexis/alexistechnologies.html"@en;
+   og:type "website"@en;
+   og:title "Alexis BARTHELEMY"@en;
+   og:description "Alexis Barthelemy Collaborative Website"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/alexis/alexis_personal.jpg"@en;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
+   rdfa:usesVocabulary <http://dbpedia.org/ontology/>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q193247>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q13166>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q893195>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q720314>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q17576071>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q94>;
+   <https://www.wikidata.org/entity/Q271680> <https://www.wikidata.org/entity/Q254211>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q484275>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q170658>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q2920921>;
+   <http://dbpedia.org/ontology/skills> <http://dbpedia.org/ontology/autonomy>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q626225>;
+   <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q3064143> .
+<https://www.wikidata.org/entity/Q193247>
+   <https://www.wikidata.org/entity/P856> <http://www.oracle.com/technetwork/java/javaee/overview/index.html>;
+   <https://www.wikidata.org/entity/P179> "Wordpress"@en .
+<https://www.wikidata.org/entity/Q13166>
+   <https://www.wikidata.org/entity/P856> <https://fr.wordpress.org/>;
+   <https://www.wikidata.org/entity/P179> "Wordpress"@en .
+<https://www.wikidata.org/entity/Q893195>
+   <https://www.wikidata.org/entity/P856> <http://getbootstrap.com>;
+   <https://www.wikidata.org/entity/P179> "Twitter Bootstrap"@en .
+<https://www.wikidata.org/entity/Q720314>
+   <https://www.wikidata.org/entity/P856> <https://spring.io>;
+   <https://www.wikidata.org/entity/P179> "Spring"@en .
+<https://www.wikidata.org/entity/Q17576071>
+   <https://www.wikidata.org/entity/P856> <https://ionicframework.com/>;
+   <https://www.wikidata.org/entity/P179> "Ionic"@en .
+<https://www.wikidata.org/entity/Q94>
+   <https://www.wikidata.org/entity/P856> <https://www.android.com/>;
+   <https://www.wikidata.org/entity/P179> "Android"@en .
+<https://www.wikidata.org/entity/Q254211>
+   <https://www.wikidata.org/entity/P856> <https://www.liferay.com/>;
+   <https://www.wikidata.org/entity/P179> "Liferay"@en .
