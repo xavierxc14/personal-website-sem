@@ -1,0 +1,76 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://rdfa.info/play/>
+   og:type "website"@en;
+   og:title "Xavier NAUNAY"@en;
+   og:description "CV page for Xavier NAUNAY"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/xaviercv.html"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<https://personal-website-sem.herokuapp.com/xavier/trips.html>
+   rdf:type schema:Person;
+   schema:sameAs <https://personal-website-sem.herokuapp.com/xavier/xaviercv.html> .
+_:1
+   rdf:type schema:TravelAction;
+   schema:agent <https://personal-website-sem.herokuapp.com/xavier/trips.html>;
+   schema:toLocation <https://rdfa.info/play/#india> .
+<https://rdfa.info/play/#india>
+   rdf:type schema:Place;
+   schema:name "India"@en;
+   schema:sameAs "https://www.wikidata.org/wiki/Q668"@en .
+_:2
+   rdf:type schema:TravelAction;
+   schema:agent <https://personal-website-sem.herokuapp.com/xavier/trips.html>;
+   schema:toLocation <https://rdfa.info/play/#france> .
+<https://rdfa.info/play/#france>
+   rdf:type schema:Place;
+   schema:name "France"@en;
+   schema:sameAs "https://www.wikidata.org/wiki/Q142"@en .
+_:3
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/india1.jpg>;
+   schema:name "Ganesh Chaturthi, Pune"@en;
+   schema:contentLocation <https://rdfa.info/play/#india> .
+_:4
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/india2.jpg>;
+   schema:name "Aga Khan Palace, Pune"@en;
+   schema:contentLocation <https://rdfa.info/play/#india> .
+_:5
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/india3.jpg>;
+   schema:name "Ganesh Chaturthi, Pune"@en;
+   schema:contentLocation <https://rdfa.info/play/#india> .
+_:6
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/india4.jpg>;
+   schema:name "Gateway of India, Bombay"@en;
+   schema:contentLocation <https://rdfa.info/play/#india> .
+_:7
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/france1.jpg>;
+   schema:name "Reims Town Hall, Reims"@en;
+   schema:contentLocation <https://rdfa.info/play/#france> .
+_:8
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/france2.jpg>;
+   schema:name "Festival of Lights, Lyon"@en;
+   schema:contentLocation <https://rdfa.info/play/#france> .
+_:9
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/france3.jpg>;
+   schema:name "Raymond Barre Bridge, Lyon"@en;
+   schema:contentLocation <https://rdfa.info/play/#france> .
+_:10
+   rdf:type schema:ImageObject;
+   schema:contentUrl <https://rdfa.info/assets/images/xavier/trips/france4.jpg>;
+   schema:name "Lyon"@en;
+   schema:contentLocation <https://rdfa.info/play/#france> .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .

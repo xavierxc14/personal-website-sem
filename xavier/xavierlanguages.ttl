@@ -1,0 +1,72 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://rdfa.info/play/>
+   og:type "website"@en;
+   og:title "Xavier NAUNAY"@en;
+   og:description "CV page for Xavier NAUNAY"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/xaviercv.html"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<https://personal-website-sem.herokuapp.com/xavier/languages.html>
+   rdf:type schema:Person;
+   schema:sameAs <https://personal-website-sem.herokuapp.com/xavier/xaviercv.html>;
+   schema:skills _:1;
+   schema:skills _:2;
+   schema:skills _:3;
+   schema:skills _:4;
+   schema:skills _:5;
+   schema:skills _:6;
+   schema:skills _:7;
+   schema:skills _:8;
+   schema:skills _:9;
+   schema:skills _:10;
+   schema:skills _:11;
+   schema:skills _:12;
+   schema:skills _:13 .
+_:1
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q8811"@en .
+_:2
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q46441"@en .
+_:3
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q251"@en .
+_:4
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q28865"@en .
+_:5
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q2005"@en .
+_:6
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q42478"@en .
+_:7
+   rdf:type schema:ComputerLanguage;
+   schema:sameAs "https://www.wikidata.org/wiki/Q15777"@en .
+_:8
+   rdf:type schema:Intangible;
+   schema:name "Leadership"@en .
+_:9
+   rdf:type schema:Intangible;
+   schema:name "Creativity"@en .
+_:10
+   rdf:type schema:Intangible;
+   schema:name "Management"@en .
+_:11
+   rdf:type schema:Intangible;
+   schema:name "Teamwork"@en .
+_:12
+   rdf:type schema:Intangible;
+   schema:name "Facilitation"@en .
+_:13
+   rdf:type schema:Intangible;
+   schema:name "Coaching/Training"@en .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
