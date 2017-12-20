@@ -1,0 +1,70 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://rdfa.info/play/>
+   og:type "website"@en;
+   og:title "Xavier NAUNAY"@en;
+   og:description "CV page for Xavier NAUNAY"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/cv.html"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema: .
+<https://personal-website-sem.herokuapp.com/xavier/cv.html>
+   rdf:type schema:Person;
+   schema:name " Xavier NAUNAY"@en;
+   schema:familyName "Naunay"@en;
+   schema:givenName "Xavier"@en;
+   schema:birthDate " 23 October 1993"@en;
+   schema:address " 47 Rue Désiré Claude, Saint-Étienne, France"@en;
+   schema:nationality " Ecuadorian"@en;
+   schema:telephone " (+33) 0634 648668"@en;
+   schema:email " xavierxc14@gmail.com"@en;
+   schema:hasOccupation _:1;
+   schema:skills "Software Development"@en;
+   schema:skills "Product Design"@en;
+   schema:skills "Microservices"@en;
+   schema:skills "Continous Integration"@en;
+   schema:skills "Continous Delivery"@en;
+   schema:skills "DevOps"@en;
+   schema:skills "Semantic Web"@en;
+   schema:skills "Information Retrieval"@en;
+   schema:skills "Data modeling"@en;
+   schema:alumniOf _:2;
+   schema:alumniOf _:4;
+   schema:alumniOf _:6 .
+_:1
+   rdf:type schema:Occupation;
+   schema:occupationalCategory "15-1132.00"@en;
+   schema:name "Software Developer"@en .
+_:2
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2017"@en;
+   schema:endDate "2018"@en;
+   schema:alumniOf _:3 .
+_:3
+   rdf:type schema:EducationalOrganization;
+   schema:name "Jean Monnet University"@en;
+   schema:sameAs "https://en.wikipedia.org/wiki/Jean_Monnet_University"@en;
+   schema:url <http://depinfo.univ-st-etienne.fr/Master/dsc.php> .
+_:4
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2011"@en;
+   schema:endDate "2017"@en;
+   schema:alumniOf _:5 .
+_:5
+   rdf:type schema:EducationalOrganization;
+   schema:name "National Polytechnic School"@en;
+   schema:sameAs "https://en.wikipedia.org/wiki/National_Polytechnic_School_(Ecuador)"@en;
+   schema:url <http://fis.epn.edu.ec/index.php?option=com_content&view=article&id=78&Itemid=253> .
+_:6
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2005"@en;
+   schema:endDate "2011"@en;
+   schema:alumniOf _:7 .
+_:7
+   rdf:type schema:HighSchool;
+   schema:name "San Gabriel High School"@en;
+   schema:sameAs "https://en.wikipedia.org/wiki/St._Gabriel_College,_Quito"@en;
+   schema:url <http://www.csgabriel.edu.ec/index.php/2014-05-02-17-50-43/2014-05-02-21-52-28/2014-05-02-21-55-32> .
