@@ -91,6 +91,18 @@ Ceci correspond à tous les triplets disponibles dans les pages html corresponda
 
 ## Partie Alexis BARTHELEMY
 
+Il existe aussi 5 différentes pages (accessible avec les URL suivantes) :
+- http://personal-website-sem.herokuapp.com/alexis/alexiscv.html
+- http://personal-website-sem.herokuapp.com/alexis/alexistrips.html
+- http://personal-website-sem.herokuapp.com/alexis/alexisexperience.html
+- http://personal-website-sem.herokuapp.com/alexis/alexistechnologies.html
+- http://personal-website-sem.herokuapp.com/alexis/alexislanguages.html
+
+Pour pouvoir avoir le fichier turtle, on peux y accéder directement grâce aux liens suivants (ou en modifiant le header http pour demander du text/turtle):
+- http://personal-website-sem.herokuapp.com/alexis/alexislanguages.ttl
+- http://personal-website-sem.herokuapp.com/alexis/alexistechnologies.ttl
+- http://personal-website-sem.herokuapp.com/alexis/alexistrips.ttl
+
 
 
 ## Utilisation de méthodes pour réaliser ce projet
@@ -134,6 +146,8 @@ Alexis BARTHELEMY :
 Projet et cours très intéressant. L'année dernière lors de mon stage en entreprise, mon maître de stage avait paru étonné que je ne dispose pas de compétences techniques dans le domaine de la Web Semantic. C'est en effet quelque chose de très important pour les entreprises qui font des sites Web et qui s'occupent du référencement, comme l'était celle qui m'a accueilli l'année dernière.
 Ainsi, les compétences que j'ai acquises me permettront de mieux me positionner si j'ai par la suite à créer des sites Web.
 En outre, l'unité d'enseignement dispensé à été bien amené et bien expliqué, ce qui a rendu le cours vivant et intéressant.
+Je n'ai pas eu le temps d'implémenter tout le référencement que j'aurais voulu. Dans la semaine, successivement mon Linux la semaine dernière, puis m'ont Windows ont plantés. J'ai du réinsaller le mardi la totalité de mes OS sur mon ordinateur vierge. Comme je travaillais en local à l'aide d'atom et que le mode sans échec ne marchait pas, la  totalité de mes données ont été effacés, ce qui m'a obligé à retravailler ce projet, bien qu'intéressant, en un minimum de temps.
+J'espère que ma partie n'affectera pas le travail de mon groupe.
 
 
 
