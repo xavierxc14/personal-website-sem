@@ -1,0 +1,45 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://rdfa.info/play/>
+   og:type "website"@en;
+   og:title "Xavier NAUNAY"@en;
+   og:description "CV page for Xavier NAUNAY"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/cv.html"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   rdfa:usesVocabulary <https://www.wikidata.org/entity/>;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<https://personal-website-sem.herokuapp.com/xavier/technologies.html>
+   rdf:type schema:Person;
+   schema:sameAs <https://personal-website-sem.herokuapp.com/xavier/cv.html>;
+   <https://www.wikidata.org/entity/skills> _:1;
+   <https://www.wikidata.org/entity/skills> _:2;
+   <https://www.wikidata.org/entity/skills> _:3;
+   <https://www.wikidata.org/entity/skills> _:4;
+   <https://www.wikidata.org/entity/skills> _:5;
+   <https://www.wikidata.org/entity/skills> _:6 .
+_:1
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q193247"@en .
+_:2
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q720314"@en .
+_:3
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q16977938"@en .
+_:4
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q17576071"@en .
+_:5
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q842014"@en .
+_:6
+   rdf:type <https://www.wikidata.org/wiki/Q756637>;
+   <https://www.wikidata.org/entity/sameAs> "https://www.wikidata.org/wiki/Q289281"@en .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .

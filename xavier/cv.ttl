@@ -2,6 +2,7 @@
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
 @prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <https://rdfa.info/play/>
    og:type "website"@en;
@@ -10,7 +11,8 @@
    og:url "http://personal-website-sem.herokuapp.com/xavier/cv.html"@en;
    og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
    og:site_name "heroku.com"@en;
-   rdfa:usesVocabulary schema: .
+   rdfa:usesVocabulary schema:;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
 <https://personal-website-sem.herokuapp.com/xavier/cv.html>
    rdf:type schema:Person;
    schema:name " Xavier NAUNAY"@en;
@@ -68,3 +70,5 @@ _:7
    schema:name "San Gabriel High School"@en;
    schema:sameAs "https://en.wikipedia.org/wiki/St._Gabriel_College,_Quito"@en;
    schema:url <http://www.csgabriel.edu.ec/index.php/2014-05-02-17-50-43/2014-05-02-21-52-28/2014-05-02-21-55-32> .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .

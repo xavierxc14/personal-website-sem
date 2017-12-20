@@ -1,0 +1,64 @@
+@prefix og: <http://ogp.me/ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://rdfa.info/play/>
+   og:type "website"@en;
+   og:title "Xavier NAUNAY"@en;
+   og:description "CV page for Xavier NAUNAY"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/cv.html"@en;
+   og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
+   og:site_name "heroku.com"@en;
+   rdfa:usesVocabulary schema:;
+   <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
+<https://personal-website-sem.herokuapp.com/xavier/experience.html>
+   rdf:type schema:Person;
+   schema:sameAs <https://personal-website-sem.herokuapp.com/xavier/cv.html>;
+   schema:alumniOf _:1;
+   schema:alumniOf _:3;
+   schema:alumniOf _:5;
+   schema:alumniOf _:7 .
+_:1
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2016"@en;
+   schema:endDate "2017"@en;
+   schema:roleName "Consultant Developer"@en;
+   schema:alumniOf _:2 .
+_:2
+   rdf:type schema:Corporation;
+   schema:name "ThoughtWorks"@en;
+   schema:url <https://www.thoughtworks.com/locations/quito> .
+_:3
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2016"@en;
+   schema:endDate "2016"@en;
+   schema:roleName "Research Assistant"@en;
+   schema:alumniOf _:4 .
+_:4
+   rdf:type schema:Corporation;
+   schema:name "National Polytechnic School"@en;
+   schema:url <https://www.epn.edu.ec> .
+_:5
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2015"@en;
+   schema:endDate "2015"@en;
+   schema:roleName "Consultant Developer"@en;
+   schema:alumniOf _:6 .
+_:6
+   rdf:type schema:Corporation;
+   schema:name "Clear Minds"@en;
+   schema:url <http://www.clearminds-it.com> .
+_:7
+   rdf:type schema:OrganizationRole;
+   schema:startDate "2012"@en;
+   schema:endDate "2015"@en;
+   schema:roleName "Developer"@en;
+   schema:alumniOf _:8 .
+_:8
+   rdf:type schema:Corporation;
+   schema:name "AtikaSoft"@en;
+   schema:url <http://atikasoft.com> .
+<https://www.wikidata.org/entity/Q12948581>
+   foaf:name "© TrendyTheme 2015. All rights reserved."@en .
