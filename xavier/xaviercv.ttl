@@ -8,12 +8,12 @@
    og:type "website"@en;
    og:title "Xavier NAUNAY"@en;
    og:description "CV page for Xavier NAUNAY"@en;
-   og:url "http://personal-website-sem.herokuapp.com/xavier/cv.html"@en;
+   og:url "http://personal-website-sem.herokuapp.com/xavier/xaviercv.html"@en;
    og:image "http://personal-website-sem.herokuapp.com/assets/images/xavier/profile.jpg"@en;
    og:site_name "heroku.com"@en;
    rdfa:usesVocabulary schema:;
    <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/contains> <https://www.wikidata.org/entity/Q12948581> .
-<https://personal-website-sem.herokuapp.com/xavier/cv.html>
+<https://personal-website-sem.herokuapp.com/xavier/xaviercv.html>
    rdf:type schema:Person;
    schema:name " Xavier NAUNAY"@en;
    schema:familyName "Naunay"@en;
