@@ -2,7 +2,7 @@
 @prefix rdfa: <http://www.w3.org/ns/rdfa#> .
 
 <https://rdfa.info/play/>
-   og:url "http://personal-website-sem.herokuapp.com/alexis/alexisexperience.html"@en;
+   og:url "http://personal-website-sem.herokuapp.com/alexis/alexislanguages.html"@en;
    og:type "website"@en;
    og:title "Alexis BARTHELEMY"@en;
    og:description "Alexis Barthelemy Collaborative Website"@en;
@@ -30,8 +30,8 @@
    <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
    <https://www.wikidata.org/entity/P179> "PHP"@en .
 <https://www.wikidata.org/entity/Q2407>
-   <https://www.wikidata.org/entity/P856> <http://php.net/manual/fr/intro-whatis.php>;
+   <https://www.wikidata.org/entity/P856> <https://isocpp.org/about>;
    <https://www.wikidata.org/entity/P179> "C++"@en .
 <https://www.wikidata.org/entity/Q2053>
-   <https://www.wikidata.org/entity/P856> <https://isocpp.org/about>;
+   <https://www.wikidata.org/entity/P856> <https://rdfa.info/play/>;
    <https://www.wikidata.org/entity/P179> "HTML5"@en .

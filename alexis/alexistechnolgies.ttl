@@ -24,7 +24,7 @@
    <http://dbpedia.org/ontology/skills> <https://www.wikidata.org/entity/Q3064143> .
 <https://www.wikidata.org/entity/Q193247>
    <https://www.wikidata.org/entity/P856> <http://www.oracle.com/technetwork/java/javaee/overview/index.html>;
-   <https://www.wikidata.org/entity/P179> "Wordpress"@en .
+   <https://www.wikidata.org/entity/P179> "JavaEE"@en .
 <https://www.wikidata.org/entity/Q13166>
    <https://www.wikidata.org/entity/P856> <https://fr.wordpress.org/>;
    <https://www.wikidata.org/entity/P179> "Wordpress"@en .
