@@ -73,6 +73,21 @@ Ceci correspond à tous les triplets disponibles dans les pages html corresponda
 
 ## Partie Xavier NAUNAY
 
+Il existe aussi 5 différentes pages (accessible avec les URL suivantes) :
+- http://personal-website-sem.herokuapp.com/xavier/xaviercv.html
+- http://personal-website-sem.herokuapp.com/xavier/xavierlanguages.html
+- http://personal-website-sem.herokuapp.com/xavier/xaviertechnologies.html
+- http://personal-website-sem.herokuapp.com/xavier/xavierexperience.html
+- http://personal-website-sem.herokuapp.com/xavier/xaviertrips.html
+
+Pour pouvoir avoir le fichier turtle, on peux y accéder directement grâce aux liens suivants (ou en modifiant le header http pour demander du text/turtle):
+- http://personal-website-sem.herokuapp.com/xavier/xaviercv.ttl
+- http://personal-website-sem.herokuapp.com/xavier/xavierlanguages.ttl
+- http://personal-website-sem.herokuapp.com/xavier/xaviertechnologies.ttl
+- http://personal-website-sem.herokuapp.com/xavier/xavierexperience.ttl
+- http://personal-website-sem.herokuapp.com/xavier/xaviertrips.ttl
+
+Ceci correspond à tous les triplets disponibles dans les pages html correspondantes.
 
 ## Partie Alexis BARTHELEMY
 
@@ -112,6 +127,7 @@ Le point négatif de notre sujet de projet est qu'il ne nécessite pas l'utilisa
 Je tenais également à souligner la disponibilité et la qualité de l'enseignement fourni par Mr LEFRANCOIS ce qui a facilité l'apprentissage de cette unité d'enseignement.
 
 Xavier NAUNAY :
+I found this course really interesting since I understood the importance of adding semantics to the data in the Web. As you told us in one class, now we can contribute to the development of the Semantic Web in general and specifically, we can add more value to the Web applications in which we will get involved using open information and making those applications better suitable for machines.
 
 
 Alexis BARTHELEMY :
